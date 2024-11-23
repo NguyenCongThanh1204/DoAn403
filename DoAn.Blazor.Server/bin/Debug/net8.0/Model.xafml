@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="Quản lý cửa hàng điện thoại">
+  <NavigationItems NavigationStyle="Accordion">
+    <Items>
+      <Item Id="@c48c812c-9db8-433a-8409-3b37d3a3b45b" Caption="Danh mục hàng" ImageName="BO_Note_32x32" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="NhomSP_ListView" ViewId="NhomSP_ListView" ObjectKey="" Index="0" IsNewNode="True" />
+          <Item Id="SanPham_ListView" ViewId="SanPham_ListView" ObjectKey="" Index="1" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Default">
+        <Items>
+          <Item Id="NhomSP_ListView" Removed="True" />
+          <Item Id="SanPham_ListView" Removed="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options UIType="TabbedMDI" RestoreTabbedMdiLayout="False" ShowTabImage="True" />
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="24.1.4.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="24.1.4.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="SanPham_DetailView">
+      <Items>
+        <PropertyEditor Id="Nhom" PropertyName="Nhom" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="SanPham" RelativeSize="100" Caption="Sản phẩm">
+              <LayoutGroup Id="SanPham_col1" RelativeSize="50">
+                <LayoutItem Id="Masp" RelativeSize="7.142857142857143" />
+                <LayoutItem Id="TenSP" RelativeSize="5.46218487394958" />
+                <LayoutItem Id="Dvt" RelativeSize="5.46218487394958" />
+                <LayoutItem Id="Vat" RelativeSize="81.9327731092437" />
+              </LayoutGroup>
+              <LayoutGroup Id="SanPham_col2" RelativeSize="50">
+                <LayoutItem Id="Giaban" RelativeSize="7.142857142857143" />
+                <LayoutItem Id="Soton" RelativeSize="5.46218487394958" />
+                <LayoutItem Id="Giatriton" RelativeSize="5.46218487394958" />
+                <LayoutItem Id="Ghichu" RelativeSize="5.46218487394958" />
+                <LayoutItem Id="Nhom" ViewItem="Nhom" Index="4" RelativeSize="76.47058823529412" IsNewNode="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

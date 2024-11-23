@@ -1,0 +1,1925 @@
+22.11.24 23:56:53.434	================================================================================
+22.11.24 23:56:53.444	Trace Log for DoAn.Win is started
+22.11.24 23:56:53.446	================================================================================
+22.11.24 23:56:53.448	System Environment
+	OS Version: Microsoft Windows NT 10.0.22631.0
+	CLR Version: 8.0.7
+	eXpressApp Version: 24.1.4.0
+	eXpressApp File Version: 24.1.4.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	eXpressAppFrameworkTraceLevel=3
+
+22.11.24 23:56:56.871	Initialize application
+=======================
+22.11.24 23:56:58.593	The ValueManagerType is initialized by the default value: SimpleValueManager.
+22.11.24 23:56:58.651	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   at DevExpress.ExpressApp.ReportsV2.Win.ReportsWindowsFormsModuleV2.Setup(XafApplication application)
+   at DevExpress.ExpressApp.XafApplication.ModuleList_ModuleAdded(Object sender, ModuleRegisteredEventArgs e)
+   at DevExpress.ExpressApp.ModuleList.SetupModule(ModuleBase module)
+   at DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   at System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   at DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinModuleBuilder.<>c__DisplayClass4_0`1.<Add>b__0(XafApplication application)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinApplicationBuilder.Build()
+   at DoAn.Win.ApplicationBuilder.BuildApplication(String connectionString) in D:\DoAn403W\DoAn\DoAn.Win\Startup.cs:line 77
+   at DoAn.Win.Program.Main(String[] args) in D:\DoAn403W\DoAn\DoAn.Win\Program.cs:line 63
+
+22.11.24 23:56:59.680	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+22.11.24 23:56:59.683	--------------------------------------------------------------------------------
+							
+
+22.11.24 23:56:59.708	--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\Accessibility.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	DevExpress.BonusSkins.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.BonusSkins.v24.1.dll
+	DevExpress.Data.Desktop.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Data.Desktop.v24.1.dll
+	DevExpress.Data.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Data.v24.1.dll
+	DevExpress.Drawing.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Drawing.v24.1.dll
+	DevExpress.ExpressApp.Chart.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Chart.v24.1.dll
+	DevExpress.ExpressApp.Chart.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Chart.Win.v24.1.dll
+	DevExpress.ExpressApp.CloneObject.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.CloneObject.Xpo.v24.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.ConditionalAppearance.v24.1.dll
+	DevExpress.ExpressApp.Dashboards.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Dashboards.v24.1.dll
+	DevExpress.ExpressApp.Dashboards.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Dashboards.Win.v24.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.FileAttachment.Win.v24.1.dll
+	DevExpress.ExpressApp.Objects.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Objects.v24.1.dll
+	DevExpress.ExpressApp.Office.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Office.v24.1.dll
+	DevExpress.ExpressApp.Office.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Office.Win.v24.1.dll
+	DevExpress.ExpressApp.ReportsV2.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.ReportsV2.v24.1.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.ReportsV2.Win.v24.1.dll
+	DevExpress.ExpressApp.Security.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Security.v24.1.dll
+	DevExpress.ExpressApp.Security.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Security.Xpo.v24.1.dll
+	DevExpress.ExpressApp.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.v24.1.dll
+	DevExpress.ExpressApp.Validation.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Validation.v24.1.dll
+	DevExpress.ExpressApp.Validation.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Validation.Win.v24.1.dll
+	DevExpress.ExpressApp.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Win.v24.1.dll
+	DevExpress.ExpressApp.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Xpo.v24.1.dll
+	DevExpress.Persistent.Base.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Persistent.Base.v24.1.dll
+	DevExpress.Persistent.BaseImpl.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Persistent.BaseImpl.Xpo.v24.1.dll
+	DevExpress.Printing.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Printing.v24.1.Core.dll
+	DevExpress.RichEdit.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.RichEdit.v24.1.Core.dll
+	DevExpress.Spreadsheet.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Spreadsheet.v24.1.Core.dll
+	DevExpress.Utils.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Utils.v24.1.dll
+	DevExpress.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Xpo.v24.1.dll
+	DevExpress.XtraBars.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraBars.v24.1.dll
+	DevExpress.XtraEditors.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraEditors.v24.1.dll
+	DevExpress.XtraReports.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraReports.v24.1.dll
+	DevExpress.XtraReports.v24.1.Extensions, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraReports.v24.1.Extensions.dll
+	DevExpress.XtraRichEdit.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraRichEdit.v24.1.dll
+	DevExpress.XtraSpreadsheet.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraSpreadsheet.v24.1.dll
+	DoAn.Module, Version=1.0.9092.43102, Culture=neutral, PublicKeyToken=null, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DoAn.Module.dll
+	DoAn.Win, Version=1.0.9092.43103, Culture=neutral, PublicKeyToken=null, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DoAn.Win.dll
+	Microsoft.Extensions.Configuration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+	Microsoft.Extensions.Configuration.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+	Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+	Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+	Microsoft.Extensions.DotNetDeltaApplier, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\hotreload\Microsoft.Extensions.DotNetDeltaApplier.dll
+	Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+	Microsoft.Extensions.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+	Microsoft.Win32.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\Microsoft.Win32.Registry.dll
+	Microsoft.Win32.SystemEvents, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\Microsoft.Win32.SystemEvents.dll
+	netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\netstandard.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.dll
+	System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.dll
+	System.Collections.Concurrent, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.Concurrent.dll
+	System.Collections.Immutable, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.Immutable.dll
+	System.Collections.NonGeneric, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.Specialized.dll
+	System.ComponentModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.dll
+	System.ComponentModel.EventBasedAsync, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Configuration.ConfigurationManager.dll
+	System.Console, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Console.dll
+	System.Data.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Data.Common.dll
+	System.Diagnostics.FileVersionInfo, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.FileVersionInfo.dll
+	System.Diagnostics.Process, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.Process.dll
+	System.Diagnostics.StackTrace, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.TraceSource.dll
+	System.Diagnostics.Tracing, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.Tracing.dll
+	System.Drawing, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Drawing.dll
+	System.Drawing.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Drawing.Primitives.dll
+	System.IO.Compression, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.IO.Compression.dll
+	System.IO.MemoryMappedFiles, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.IO.MemoryMappedFiles.dll
+	System.IO.Pipes, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.IO.Pipes.dll
+	System.Linq, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Linq.dll
+	System.Linq.Expressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Linq.Expressions.dll
+	System.Memory, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Memory.dll
+	System.Net.WebClient, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Net.WebClient.dll
+	System.Numerics.Vectors, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Numerics.Vectors.dll
+	System.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ObjectModel.dll
+	System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Private.CoreLib.dll
+	System.Private.Uri, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Private.Uri.dll
+	System.Private.Xml, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Private.Xml.dll
+	System.Reflection.Emit, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Metadata, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Metadata.dll
+	System.Reflection.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Primitives.dll
+	System.Resources.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Resources.Extensions.dll
+	System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.dll
+	System.Runtime.InteropServices, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Loader, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.Loader.dll
+	System.Runtime.Serialization.Formatters, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.Serialization.Formatters.dll
+	System.Security.AccessControl, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.AccessControl.dll
+	System.Security.Claims, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.Claims.dll
+	System.Security.Cryptography, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.Cryptography.dll
+	System.Security.Principal.Windows, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.Principal.Windows.dll
+	System.Text.Encoding.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Text.Encoding.Extensions.dll
+	System.Text.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Text.Json.dll
+	System.Text.RegularExpressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Text.RegularExpressions.dll
+	System.Threading, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.dll
+	System.Threading.Overlapped, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.Overlapped.dll
+	System.Threading.Thread, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.ThreadPool.dll
+	System.Windows.Forms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Windows.Forms.dll
+	System.Windows.Forms.Design, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Windows.Forms.Design.dll
+	System.Windows.Forms.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Windows.Forms.Primitives.dll
+	System.Xml.ReaderWriter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Xml.ReaderWriter.dll
+	System.Xml.XmlSerializer, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Xml.XmlSerializer.dll
+22.11.24 23:57:00.442	SetupModules
+22.11.24 23:57:00.640	Customize TypesInfo
+22.11.24 23:57:04.148		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+22.11.24 23:57:04.152		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+22.11.24 23:57:04.523	Logon With Parameters
+22.11.24 23:57:04.527		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: f42b060d-6e31-4934-be93-bd310f01baf6
+								Category: Unspecified
+
+22.11.24 23:57:04.620	Generate default Model for Action containers
+22.11.24 23:57:10.976	'UserName' property editor value changed
+22.11.24 23:57:11.032	--------------------------------------------------------------------------------
+							Execute action
+
+22.11.24 23:57:11.036		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Log In
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+
+22.11.24 23:57:11.038	--------------------------------------------------------------------------------
+							Execute action
+
+22.11.24 23:57:11.039		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: f42b060d-6e31-4934-be93-bd310f01baf6
+								Category: Unspecified
+
+22.11.24 23:57:11.068	--------------------------------------------------------------------------------
+							Start logon process
+
+22.11.24 23:57:11.071	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+22.11.24 23:57:11.077		ConnectionString: Data Source=tcp:127.0.0.1;Initial Catalog=DoAn;User ID=sa;XpoDataStorePool=True;
+22.11.24 23:57:11.080		ConnectionString: 
+22.11.24 23:57:11.094	Resolve the 'Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null' assembly
+22.11.24 23:57:26.086	--------------------------------------------------------------------------------
+							UpdateDB
+
+23.11.24 00:02:01.438	================================================================================
+23.11.24 00:02:01.454	Trace Log for DoAn.Win is started
+23.11.24 00:02:01.456	================================================================================
+23.11.24 00:02:01.461	System Environment
+	OS Version: Microsoft Windows NT 10.0.22631.0
+	CLR Version: 8.0.7
+	eXpressApp Version: 24.1.4.0
+	eXpressApp File Version: 24.1.4.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	eXpressAppFrameworkTraceLevel=3
+
+23.11.24 00:02:01.982	Initialize application
+=======================
+23.11.24 00:02:02.202	The ValueManagerType is initialized by the default value: SimpleValueManager.
+23.11.24 00:02:02.241	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   at DevExpress.ExpressApp.ReportsV2.Win.ReportsWindowsFormsModuleV2.Setup(XafApplication application)
+   at DevExpress.ExpressApp.XafApplication.ModuleList_ModuleAdded(Object sender, ModuleRegisteredEventArgs e)
+   at DevExpress.ExpressApp.ModuleList.SetupModule(ModuleBase module)
+   at DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   at System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   at DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinModuleBuilder.<>c__DisplayClass4_0`1.<Add>b__0(XafApplication application)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinApplicationBuilder.Build()
+   at DoAn.Win.ApplicationBuilder.BuildApplication(String connectionString) in D:\DoAn403W\DoAn\DoAn.Win\Startup.cs:line 77
+   at DoAn.Win.Program.Main(String[] args) in D:\DoAn403W\DoAn\DoAn.Win\Program.cs:line 63
+
+23.11.24 00:02:02.979	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+23.11.24 00:02:02.981	--------------------------------------------------------------------------------
+							
+
+23.11.24 00:02:02.995	--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\Accessibility.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	DevExpress.BonusSkins.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.BonusSkins.v24.1.dll
+	DevExpress.Data.Desktop.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Data.Desktop.v24.1.dll
+	DevExpress.Data.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Data.v24.1.dll
+	DevExpress.Drawing.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Drawing.v24.1.dll
+	DevExpress.ExpressApp.Chart.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Chart.v24.1.dll
+	DevExpress.ExpressApp.Chart.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Chart.Win.v24.1.dll
+	DevExpress.ExpressApp.CloneObject.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.CloneObject.Xpo.v24.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.ConditionalAppearance.v24.1.dll
+	DevExpress.ExpressApp.Dashboards.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Dashboards.v24.1.dll
+	DevExpress.ExpressApp.Dashboards.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Dashboards.Win.v24.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.FileAttachment.Win.v24.1.dll
+	DevExpress.ExpressApp.Objects.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Objects.v24.1.dll
+	DevExpress.ExpressApp.Office.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Office.v24.1.dll
+	DevExpress.ExpressApp.Office.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Office.Win.v24.1.dll
+	DevExpress.ExpressApp.ReportsV2.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.ReportsV2.v24.1.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.ReportsV2.Win.v24.1.dll
+	DevExpress.ExpressApp.Security.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Security.v24.1.dll
+	DevExpress.ExpressApp.Security.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Security.Xpo.v24.1.dll
+	DevExpress.ExpressApp.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.v24.1.dll
+	DevExpress.ExpressApp.Validation.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Validation.v24.1.dll
+	DevExpress.ExpressApp.Validation.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Validation.Win.v24.1.dll
+	DevExpress.ExpressApp.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Win.v24.1.dll
+	DevExpress.ExpressApp.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Xpo.v24.1.dll
+	DevExpress.Persistent.Base.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Persistent.Base.v24.1.dll
+	DevExpress.Persistent.BaseImpl.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Persistent.BaseImpl.Xpo.v24.1.dll
+	DevExpress.Printing.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Printing.v24.1.Core.dll
+	DevExpress.RichEdit.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.RichEdit.v24.1.Core.dll
+	DevExpress.Spreadsheet.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Spreadsheet.v24.1.Core.dll
+	DevExpress.Utils.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Utils.v24.1.dll
+	DevExpress.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Xpo.v24.1.dll
+	DevExpress.XtraBars.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraBars.v24.1.dll
+	DevExpress.XtraEditors.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraEditors.v24.1.dll
+	DevExpress.XtraReports.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraReports.v24.1.dll
+	DevExpress.XtraReports.v24.1.Extensions, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraReports.v24.1.Extensions.dll
+	DevExpress.XtraRichEdit.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraRichEdit.v24.1.dll
+	DevExpress.XtraSpreadsheet.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraSpreadsheet.v24.1.dll
+	DoAn.Module, Version=1.0.9092.43102, Culture=neutral, PublicKeyToken=null, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DoAn.Module.dll
+	DoAn.Win, Version=1.0.9092.43103, Culture=neutral, PublicKeyToken=null, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DoAn.Win.dll
+	Microsoft.Extensions.Configuration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+	Microsoft.Extensions.Configuration.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+	Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+	Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+	Microsoft.Extensions.DotNetDeltaApplier, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\hotreload\Microsoft.Extensions.DotNetDeltaApplier.dll
+	Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+	Microsoft.Extensions.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+	Microsoft.Win32.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\Microsoft.Win32.Registry.dll
+	Microsoft.Win32.SystemEvents, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\Microsoft.Win32.SystemEvents.dll
+	netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\netstandard.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.dll
+	System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.dll
+	System.Collections.Concurrent, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.Concurrent.dll
+	System.Collections.Immutable, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.Immutable.dll
+	System.Collections.NonGeneric, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.Specialized.dll
+	System.ComponentModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.dll
+	System.ComponentModel.EventBasedAsync, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Configuration.ConfigurationManager.dll
+	System.Console, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Console.dll
+	System.Data.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Data.Common.dll
+	System.Diagnostics.FileVersionInfo, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.FileVersionInfo.dll
+	System.Diagnostics.Process, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.Process.dll
+	System.Diagnostics.StackTrace, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.TraceSource.dll
+	System.Diagnostics.Tracing, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.Tracing.dll
+	System.Drawing, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Drawing.dll
+	System.Drawing.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Drawing.Primitives.dll
+	System.IO.Compression, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.IO.Compression.dll
+	System.IO.MemoryMappedFiles, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.IO.MemoryMappedFiles.dll
+	System.IO.Pipes, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.IO.Pipes.dll
+	System.Linq, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Linq.dll
+	System.Linq.Expressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Linq.Expressions.dll
+	System.Memory, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Memory.dll
+	System.Net.WebClient, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Net.WebClient.dll
+	System.Numerics.Vectors, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Numerics.Vectors.dll
+	System.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ObjectModel.dll
+	System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Private.CoreLib.dll
+	System.Private.Uri, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Private.Uri.dll
+	System.Private.Xml, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Private.Xml.dll
+	System.Reflection.Emit, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Metadata, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Metadata.dll
+	System.Reflection.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Primitives.dll
+	System.Resources.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Resources.Extensions.dll
+	System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.dll
+	System.Runtime.InteropServices, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Loader, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.Loader.dll
+	System.Runtime.Serialization.Formatters, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.Serialization.Formatters.dll
+	System.Security.AccessControl, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.AccessControl.dll
+	System.Security.Claims, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.Claims.dll
+	System.Security.Cryptography, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.Cryptography.dll
+	System.Security.Principal.Windows, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.Principal.Windows.dll
+	System.Text.Encoding.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Text.Encoding.Extensions.dll
+	System.Text.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Text.Json.dll
+	System.Text.RegularExpressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Text.RegularExpressions.dll
+	System.Threading, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.dll
+	System.Threading.Overlapped, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.Overlapped.dll
+	System.Threading.Thread, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.ThreadPool.dll
+	System.Windows.Forms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Windows.Forms.dll
+	System.Windows.Forms.Design, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Windows.Forms.Design.dll
+	System.Windows.Forms.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Windows.Forms.Primitives.dll
+	System.Xml.ReaderWriter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Xml.ReaderWriter.dll
+	System.Xml.XmlSerializer, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Xml.XmlSerializer.dll
+23.11.24 00:02:03.312	SetupModules
+23.11.24 00:02:03.598	Customize TypesInfo
+23.11.24 00:02:06.652		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+23.11.24 00:02:06.655		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+23.11.24 00:02:07.025	Logon With Parameters
+23.11.24 00:02:07.029		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 6973b742-cdcc-44c3-8be5-85703f92c41c
+								Category: Unspecified
+
+23.11.24 00:02:07.119	Generate default Model for Action containers
+23.11.24 00:02:14.598	'UserName' property editor value changed
+23.11.24 00:02:14.666	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:02:14.670		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Log In
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+
+23.11.24 00:02:14.674	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:02:14.677		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 6973b742-cdcc-44c3-8be5-85703f92c41c
+								Category: Unspecified
+
+23.11.24 00:02:14.706	--------------------------------------------------------------------------------
+							Start logon process
+
+23.11.24 00:02:14.709	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+23.11.24 00:02:14.713		ConnectionString: Data Source=tcp:127.0.0.1;Initial Catalog=DoAn;User ID=sa;XpoDataStorePool=True;
+23.11.24 00:02:14.715		ConnectionString: 
+23.11.24 00:02:14.725	Resolve the 'Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null' assembly
+23.11.24 00:02:25.017	--------------------------------------------------------------------------------
+							UpdateDB
+
+23.11.24 00:02:36.449		ConnectionString: Data Source=tcp:127.0.0.1;Initial Catalog=DoAn;User ID=sa;XpoDataStorePool=True;
+23.11.24 00:03:50.235	--------------------------------------------------------------------------------
+							Logon successful
+
+23.11.24 00:03:50.916	--------------------------------------------------------------------------------
+							Logon completed
+
+23.11.24 00:03:51.529		startUpActions: 1
+23.11.24 00:03:51.577	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+23.11.24 00:03:53.401	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:03:53.403		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+23.11.24 00:03:53.406		SelectedItem: Users
+23.11.24 00:03:55.904	Action 'ShowNavigationItem' done
+23.11.24 00:03:56.669	Action '6973b742-cdcc-44c3-8be5-85703f92c41c' done
+23.11.24 00:03:56.673	Window closing: AuthenticationStandardLogonParameters_Win_DetailView
+23.11.24 00:03:56.797	Action 'Logon' done
+23.11.24 00:03:56.802	Window closed: AuthenticationStandardLogonParameters_Win_DetailView
+23.11.24 00:03:56.863	Application startup done
+=========================
+23.11.24 00:03:56.867	Application running
+====================
+23.11.24 00:04:10.216	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:04:10.220		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+23.11.24 00:04:10.222		SelectedItem: Dashboards
+23.11.24 00:04:10.773	Action 'ShowNavigationItem' done
+23.11.24 00:04:14.255	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:04:14.258		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+23.11.24 00:04:14.261		SelectedItem: Users
+23.11.24 00:04:14.307	Action 'ShowNavigationItem' done
+23.11.24 00:04:16.094	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:04:16.098		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+23.11.24 00:04:16.100		SelectedItem: My Details
+23.11.24 00:04:16.559	Action 'ShowNavigationItem' done
+23.11.24 00:04:21.956	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:04:21.958		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+23.11.24 00:04:21.960	Action 'ConfigureSkin' done
+23.11.24 00:04:25.062	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:04:25.073		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+23.11.24 00:04:25.076	Action 'ConfigureSkin' done
+23.11.24 00:04:26.280	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:04:26.281		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+23.11.24 00:04:26.283	Action 'ConfigureSkin' done
+23.11.24 00:04:28.215	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:04:28.217		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+23.11.24 00:04:28.218	Action 'ConfigureSkin' done
+23.11.24 00:04:30.399	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:04:30.401		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+23.11.24 00:04:30.402	Action 'ConfigureSkin' done
+23.11.24 00:04:39.935	Window closing: ApplicationUser_ListView
+23.11.24 00:04:39.948	Window closing: DashboardData_ListView
+23.11.24 00:04:39.950	Window closing: ApplicationUser_DetailView
+23.11.24 00:04:39.953	Window closing: LightStyleMainRibbonForm
+23.11.24 00:04:40.229	Window closed: ApplicationUser_ListView
+23.11.24 00:04:40.232	Window closed: DashboardData_ListView
+23.11.24 00:04:40.234	Window closed: ApplicationUser_DetailView
+23.11.24 00:04:40.237	Window closed: LightStyleMainRibbonForm
+23.11.24 00:04:40.659	Save model changes
+===================
+23.11.24 00:04:40.842	Save model changes
+===================
+23.11.24 00:04:40.931	--------------------------------------------------------------------------------
+							Logoff completed
+
+23.11.24 00:04:40.942	Application stopping
+=====================
+23.11.24 00:14:50.790	================================================================================
+23.11.24 00:14:50.803	Trace Log for DoAn.Win is started
+23.11.24 00:14:50.806	================================================================================
+23.11.24 00:14:50.815	System Environment
+	OS Version: Microsoft Windows NT 10.0.22631.0
+	CLR Version: 8.0.7
+	eXpressApp Version: 24.1.4.0
+	eXpressApp File Version: 24.1.4.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	eXpressAppFrameworkTraceLevel=3
+
+23.11.24 00:14:51.496	Initialize application
+=======================
+23.11.24 00:14:51.868	The ValueManagerType is initialized by the default value: SimpleValueManager.
+23.11.24 00:14:51.935	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   at DevExpress.ExpressApp.ReportsV2.Win.ReportsWindowsFormsModuleV2.Setup(XafApplication application)
+   at DevExpress.ExpressApp.XafApplication.ModuleList_ModuleAdded(Object sender, ModuleRegisteredEventArgs e)
+   at DevExpress.ExpressApp.ModuleList.SetupModule(ModuleBase module)
+   at DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   at System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   at DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinModuleBuilder.<>c__DisplayClass4_0`1.<Add>b__0(XafApplication application)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinApplicationBuilder.Build()
+   at DoAn.Win.ApplicationBuilder.BuildApplication(String connectionString) in D:\DoAn403W\DoAn\DoAn.Win\Startup.cs:line 77
+   at DoAn.Win.Program.Main(String[] args) in D:\DoAn403W\DoAn\DoAn.Win\Program.cs:line 63
+
+23.11.24 00:14:53.205	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+23.11.24 00:14:53.211	--------------------------------------------------------------------------------
+							
+
+23.11.24 00:14:53.330	--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\Accessibility.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	DevExpress.BonusSkins.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.BonusSkins.v24.1.dll
+	DevExpress.Data.Desktop.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Data.Desktop.v24.1.dll
+	DevExpress.Data.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Data.v24.1.dll
+	DevExpress.Drawing.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Drawing.v24.1.dll
+	DevExpress.ExpressApp.Chart.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Chart.v24.1.dll
+	DevExpress.ExpressApp.Chart.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Chart.Win.v24.1.dll
+	DevExpress.ExpressApp.CloneObject.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.CloneObject.Xpo.v24.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.ConditionalAppearance.v24.1.dll
+	DevExpress.ExpressApp.Dashboards.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Dashboards.v24.1.dll
+	DevExpress.ExpressApp.Dashboards.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Dashboards.Win.v24.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.FileAttachment.Win.v24.1.dll
+	DevExpress.ExpressApp.Objects.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Objects.v24.1.dll
+	DevExpress.ExpressApp.Office.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Office.v24.1.dll
+	DevExpress.ExpressApp.Office.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Office.Win.v24.1.dll
+	DevExpress.ExpressApp.ReportsV2.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.ReportsV2.v24.1.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.ReportsV2.Win.v24.1.dll
+	DevExpress.ExpressApp.Security.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Security.v24.1.dll
+	DevExpress.ExpressApp.Security.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Security.Xpo.v24.1.dll
+	DevExpress.ExpressApp.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.v24.1.dll
+	DevExpress.ExpressApp.Validation.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Validation.v24.1.dll
+	DevExpress.ExpressApp.Validation.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Validation.Win.v24.1.dll
+	DevExpress.ExpressApp.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Win.v24.1.dll
+	DevExpress.ExpressApp.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Xpo.v24.1.dll
+	DevExpress.Persistent.Base.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Persistent.Base.v24.1.dll
+	DevExpress.Persistent.BaseImpl.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Persistent.BaseImpl.Xpo.v24.1.dll
+	DevExpress.Printing.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Printing.v24.1.Core.dll
+	DevExpress.RichEdit.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.RichEdit.v24.1.Core.dll
+	DevExpress.Spreadsheet.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Spreadsheet.v24.1.Core.dll
+	DevExpress.Utils.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Utils.v24.1.dll
+	DevExpress.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Xpo.v24.1.dll
+	DevExpress.XtraBars.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraBars.v24.1.dll
+	DevExpress.XtraEditors.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraEditors.v24.1.dll
+	DevExpress.XtraReports.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraReports.v24.1.dll
+	DevExpress.XtraReports.v24.1.Extensions, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraReports.v24.1.Extensions.dll
+	DevExpress.XtraRichEdit.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraRichEdit.v24.1.dll
+	DevExpress.XtraSpreadsheet.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraSpreadsheet.v24.1.dll
+	DoAn.Module, Version=1.0.9092.43102, Culture=neutral, PublicKeyToken=null, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DoAn.Module.dll
+	DoAn.Win, Version=1.0.9092.43103, Culture=neutral, PublicKeyToken=null, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DoAn.Win.dll
+	Microsoft.Extensions.Configuration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+	Microsoft.Extensions.Configuration.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+	Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+	Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+	Microsoft.Extensions.DotNetDeltaApplier, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\hotreload\Microsoft.Extensions.DotNetDeltaApplier.dll
+	Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+	Microsoft.Extensions.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+	Microsoft.Win32.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\Microsoft.Win32.Registry.dll
+	Microsoft.Win32.SystemEvents, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\Microsoft.Win32.SystemEvents.dll
+	netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\netstandard.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.dll
+	System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.dll
+	System.Collections.Concurrent, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.Concurrent.dll
+	System.Collections.Immutable, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.Immutable.dll
+	System.Collections.NonGeneric, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.Specialized.dll
+	System.ComponentModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.dll
+	System.ComponentModel.EventBasedAsync, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Configuration.ConfigurationManager.dll
+	System.Console, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Console.dll
+	System.Data.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Data.Common.dll
+	System.Diagnostics.FileVersionInfo, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.FileVersionInfo.dll
+	System.Diagnostics.Process, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.Process.dll
+	System.Diagnostics.StackTrace, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.TraceSource.dll
+	System.Diagnostics.Tracing, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.Tracing.dll
+	System.Drawing, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Drawing.dll
+	System.Drawing.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Drawing.Primitives.dll
+	System.IO.Compression, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.IO.Compression.dll
+	System.IO.MemoryMappedFiles, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.IO.MemoryMappedFiles.dll
+	System.IO.Pipes, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.IO.Pipes.dll
+	System.Linq, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Linq.dll
+	System.Linq.Expressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Linq.Expressions.dll
+	System.Memory, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Memory.dll
+	System.Net.WebClient, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Net.WebClient.dll
+	System.Numerics.Vectors, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Numerics.Vectors.dll
+	System.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ObjectModel.dll
+	System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Private.CoreLib.dll
+	System.Private.Uri, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Private.Uri.dll
+	System.Private.Xml, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Private.Xml.dll
+	System.Reflection.Emit, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Metadata, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Metadata.dll
+	System.Reflection.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Primitives.dll
+	System.Resources.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Resources.Extensions.dll
+	System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.dll
+	System.Runtime.InteropServices, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Loader, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.Loader.dll
+	System.Runtime.Serialization.Formatters, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.Serialization.Formatters.dll
+	System.Security.AccessControl, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.AccessControl.dll
+	System.Security.Claims, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.Claims.dll
+	System.Security.Cryptography, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.Cryptography.dll
+	System.Security.Principal.Windows, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.Principal.Windows.dll
+	System.Text.Encoding.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Text.Encoding.Extensions.dll
+	System.Text.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Text.Json.dll
+	System.Text.RegularExpressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Text.RegularExpressions.dll
+	System.Threading, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.dll
+	System.Threading.Overlapped, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.Overlapped.dll
+	System.Threading.Thread, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.ThreadPool.dll
+	System.Windows.Forms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Windows.Forms.dll
+	System.Windows.Forms.Design, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Windows.Forms.Design.dll
+	System.Windows.Forms.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Windows.Forms.Primitives.dll
+	System.Xml.ReaderWriter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Xml.ReaderWriter.dll
+	System.Xml.XmlSerializer, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Xml.XmlSerializer.dll
+23.11.24 00:14:53.877	SetupModules
+23.11.24 00:14:54.155	Customize TypesInfo
+23.11.24 00:14:58.018		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+23.11.24 00:14:58.022		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+23.11.24 00:14:58.575	Logon With Parameters
+23.11.24 00:14:58.580		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 88d81c1e-ad59-4a66-9100-e249978234f4
+								Category: Unspecified
+
+23.11.24 00:14:58.712	Generate default Model for Action containers
+23.11.24 00:15:07.937	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:15:07.940		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Log In
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+
+23.11.24 00:15:07.946	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:15:07.949		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 88d81c1e-ad59-4a66-9100-e249978234f4
+								Category: Unspecified
+
+23.11.24 00:15:07.999	--------------------------------------------------------------------------------
+							Start logon process
+
+23.11.24 00:15:08.003	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+23.11.24 00:15:08.008		ConnectionString: Data Source=tcp:127.0.0.1;Initial Catalog=DoAn;User ID=sa;XpoDataStorePool=True;
+23.11.24 00:15:08.012		ConnectionString: 
+23.11.24 00:15:08.026	Resolve the 'Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null' assembly
+23.11.24 00:15:13.607	--------------------------------------------------------------------------------
+							UpdateDB
+
+23.11.24 00:15:23.485		ConnectionString: Data Source=tcp:127.0.0.1;Initial Catalog=DoAn;User ID=sa;XpoDataStorePool=True;
+23.11.24 00:15:40.813	--------------------------------------------------------------------------------
+							Logon successful
+
+23.11.24 00:15:41.228	--------------------------------------------------------------------------------
+							Logon completed
+
+23.11.24 00:15:41.377		startUpActions: 1
+23.11.24 00:15:41.413	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+23.11.24 00:15:45.895	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:15:45.898		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+23.11.24 00:15:45.901	Action 'ConfigureSkin' done
+23.11.24 00:15:45.999	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:15:46.002		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+23.11.24 00:15:46.004	Action 'ConfigureSkin' done
+23.11.24 00:15:46.752	Action '88d81c1e-ad59-4a66-9100-e249978234f4' done
+23.11.24 00:15:46.755	Window closing: AuthenticationStandardLogonParameters_Win_DetailView
+23.11.24 00:15:46.762	Action 'Logon' done
+23.11.24 00:15:46.764	Window closed: AuthenticationStandardLogonParameters_Win_DetailView
+23.11.24 00:15:46.825	Application startup done
+=========================
+23.11.24 00:15:46.829	Application running
+====================
+23.11.24 00:16:07.640	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:16:07.642		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+23.11.24 00:16:07.645		SelectedItem: Users
+23.11.24 00:16:07.987	Action 'ShowNavigationItem' done
+23.11.24 00:16:38.673	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:16:38.675		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+23.11.24 00:16:38.678	Action 'ConfigureSkin' done
+23.11.24 00:16:47.441	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:16:47.443		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+23.11.24 00:16:47.446	Action 'ConfigureSkin' done
+23.11.24 00:17:03.013	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:17:03.016		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+23.11.24 00:17:03.019	Action 'ConfigureSkin' done
+23.11.24 00:17:08.355	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:17:08.358		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+23.11.24 00:17:08.362	Action 'ConfigureSkin' done
+23.11.24 00:17:14.357	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:17:14.359		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+23.11.24 00:17:14.363	Action 'ConfigureSkin' done
+23.11.24 00:17:20.807	Window closing: ApplicationUser_DetailView
+23.11.24 00:17:20.839	Window closing: ApplicationUser_ListView
+23.11.24 00:17:20.846	Window closing: LightStyleMainRibbonForm
+23.11.24 00:17:20.948	Window closed: ApplicationUser_DetailView
+23.11.24 00:17:20.953	Window closed: ApplicationUser_ListView
+23.11.24 00:17:20.955	Window closed: LightStyleMainRibbonForm
+23.11.24 00:17:21.187	Save model changes
+===================
+23.11.24 00:17:21.364	Save model changes
+===================
+23.11.24 00:17:21.377	--------------------------------------------------------------------------------
+							Logoff completed
+
+23.11.24 00:17:21.384	Application stopping
+=====================
+23.11.24 00:52:32.505	================================================================================
+23.11.24 00:52:32.518	Trace Log for DoAn.Win is started
+23.11.24 00:52:32.519	================================================================================
+23.11.24 00:52:32.522	System Environment
+	OS Version: Microsoft Windows NT 10.0.22631.0
+	CLR Version: 8.0.7
+	eXpressApp Version: 24.1.4.0
+	eXpressApp File Version: 24.1.4.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	eXpressAppFrameworkTraceLevel=3
+
+23.11.24 00:52:33.176	Initialize application
+=======================
+23.11.24 00:52:33.444	The ValueManagerType is initialized by the default value: SimpleValueManager.
+23.11.24 00:52:33.485	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   at DevExpress.ExpressApp.ReportsV2.Win.ReportsWindowsFormsModuleV2.Setup(XafApplication application)
+   at DevExpress.ExpressApp.XafApplication.ModuleList_ModuleAdded(Object sender, ModuleRegisteredEventArgs e)
+   at DevExpress.ExpressApp.ModuleList.SetupModule(ModuleBase module)
+   at DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   at System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   at DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinModuleBuilder.<>c__DisplayClass4_0`1.<Add>b__0(XafApplication application)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinApplicationBuilder.Build()
+   at DoAn.Win.ApplicationBuilder.BuildApplication(String connectionString) in D:\DoAn403W\DoAn\DoAn.Win\Startup.cs:line 77
+   at DoAn.Win.Program.Main(String[] args) in D:\DoAn403W\DoAn\DoAn.Win\Program.cs:line 63
+
+23.11.24 00:52:34.447	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+23.11.24 00:52:34.455	--------------------------------------------------------------------------------
+							
+
+23.11.24 00:52:34.503	--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\Accessibility.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	DevExpress.BonusSkins.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.BonusSkins.v24.1.dll
+	DevExpress.Data.Desktop.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Data.Desktop.v24.1.dll
+	DevExpress.Data.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Data.v24.1.dll
+	DevExpress.Drawing.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Drawing.v24.1.dll
+	DevExpress.ExpressApp.Chart.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Chart.v24.1.dll
+	DevExpress.ExpressApp.Chart.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Chart.Win.v24.1.dll
+	DevExpress.ExpressApp.CloneObject.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.CloneObject.Xpo.v24.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.ConditionalAppearance.v24.1.dll
+	DevExpress.ExpressApp.Dashboards.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Dashboards.v24.1.dll
+	DevExpress.ExpressApp.Dashboards.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Dashboards.Win.v24.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.FileAttachment.Win.v24.1.dll
+	DevExpress.ExpressApp.Objects.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Objects.v24.1.dll
+	DevExpress.ExpressApp.Office.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Office.v24.1.dll
+	DevExpress.ExpressApp.Office.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Office.Win.v24.1.dll
+	DevExpress.ExpressApp.ReportsV2.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.ReportsV2.v24.1.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.ReportsV2.Win.v24.1.dll
+	DevExpress.ExpressApp.Security.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Security.v24.1.dll
+	DevExpress.ExpressApp.Security.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Security.Xpo.v24.1.dll
+	DevExpress.ExpressApp.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.v24.1.dll
+	DevExpress.ExpressApp.Validation.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Validation.v24.1.dll
+	DevExpress.ExpressApp.Validation.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Validation.Win.v24.1.dll
+	DevExpress.ExpressApp.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Win.v24.1.dll
+	DevExpress.ExpressApp.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Xpo.v24.1.dll
+	DevExpress.Persistent.Base.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Persistent.Base.v24.1.dll
+	DevExpress.Persistent.BaseImpl.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Persistent.BaseImpl.Xpo.v24.1.dll
+	DevExpress.Printing.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Printing.v24.1.Core.dll
+	DevExpress.RichEdit.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.RichEdit.v24.1.Core.dll
+	DevExpress.Spreadsheet.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Spreadsheet.v24.1.Core.dll
+	DevExpress.Utils.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Utils.v24.1.dll
+	DevExpress.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Xpo.v24.1.dll
+	DevExpress.XtraBars.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraBars.v24.1.dll
+	DevExpress.XtraEditors.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraEditors.v24.1.dll
+	DevExpress.XtraReports.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraReports.v24.1.dll
+	DevExpress.XtraReports.v24.1.Extensions, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraReports.v24.1.Extensions.dll
+	DevExpress.XtraRichEdit.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraRichEdit.v24.1.dll
+	DevExpress.XtraSpreadsheet.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraSpreadsheet.v24.1.dll
+	DoAn.Module, Version=1.0.9093.1517, Culture=neutral, PublicKeyToken=null, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DoAn.Module.dll
+	DoAn.Win, Version=1.0.9093.1574, Culture=neutral, PublicKeyToken=null, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DoAn.Win.dll
+	Microsoft.Extensions.Configuration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+	Microsoft.Extensions.Configuration.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+	Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+	Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+	Microsoft.Extensions.DotNetDeltaApplier, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\hotreload\Microsoft.Extensions.DotNetDeltaApplier.dll
+	Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+	Microsoft.Extensions.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+	Microsoft.Win32.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\Microsoft.Win32.Registry.dll
+	Microsoft.Win32.SystemEvents, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\Microsoft.Win32.SystemEvents.dll
+	netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\netstandard.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.dll
+	System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.dll
+	System.Collections.Concurrent, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.Concurrent.dll
+	System.Collections.Immutable, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.Immutable.dll
+	System.Collections.NonGeneric, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.Specialized.dll
+	System.ComponentModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.dll
+	System.ComponentModel.EventBasedAsync, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Configuration.ConfigurationManager.dll
+	System.Console, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Console.dll
+	System.Data.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Data.Common.dll
+	System.Diagnostics.FileVersionInfo, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.FileVersionInfo.dll
+	System.Diagnostics.Process, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.Process.dll
+	System.Diagnostics.StackTrace, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.TraceSource.dll
+	System.Diagnostics.Tracing, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.Tracing.dll
+	System.Drawing, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Drawing.dll
+	System.Drawing.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Drawing.Primitives.dll
+	System.IO.Compression, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.IO.Compression.dll
+	System.IO.MemoryMappedFiles, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.IO.MemoryMappedFiles.dll
+	System.IO.Pipes, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.IO.Pipes.dll
+	System.Linq, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Linq.dll
+	System.Linq.Expressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Linq.Expressions.dll
+	System.Memory, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Memory.dll
+	System.Net.WebClient, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Net.WebClient.dll
+	System.Numerics.Vectors, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Numerics.Vectors.dll
+	System.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ObjectModel.dll
+	System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Private.CoreLib.dll
+	System.Private.Uri, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Private.Uri.dll
+	System.Private.Xml, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Private.Xml.dll
+	System.Reflection.Emit, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Metadata, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Metadata.dll
+	System.Reflection.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Primitives.dll
+	System.Resources.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Resources.Extensions.dll
+	System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.dll
+	System.Runtime.InteropServices, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Loader, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.Loader.dll
+	System.Runtime.Serialization.Formatters, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.Serialization.Formatters.dll
+	System.Security.AccessControl, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.AccessControl.dll
+	System.Security.Claims, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.Claims.dll
+	System.Security.Cryptography, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.Cryptography.dll
+	System.Security.Principal.Windows, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.Principal.Windows.dll
+	System.Text.Encoding.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Text.Encoding.Extensions.dll
+	System.Text.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Text.Json.dll
+	System.Text.RegularExpressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Text.RegularExpressions.dll
+	System.Threading, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.dll
+	System.Threading.Overlapped, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.Overlapped.dll
+	System.Threading.Thread, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.ThreadPool.dll
+	System.Windows.Forms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Windows.Forms.dll
+	System.Windows.Forms.Design, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Windows.Forms.Design.dll
+	System.Windows.Forms.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Windows.Forms.Primitives.dll
+	System.Xml.ReaderWriter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Xml.ReaderWriter.dll
+	System.Xml.XmlSerializer, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Xml.XmlSerializer.dll
+23.11.24 00:52:34.886	SetupModules
+23.11.24 00:52:35.210	Customize TypesInfo
+23.11.24 00:52:38.348		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+23.11.24 00:52:38.352		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+23.11.24 00:52:38.753	Logon With Parameters
+23.11.24 00:52:38.755		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 58a6c260-c78e-4bc3-89bf-dc33a14d4a98
+								Category: Unspecified
+
+23.11.24 00:52:38.881	Generate default Model for Action containers
+23.11.24 00:52:41.815	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:52:41.818		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Log In
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+
+23.11.24 00:52:41.821	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:52:41.823		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 58a6c260-c78e-4bc3-89bf-dc33a14d4a98
+								Category: Unspecified
+
+23.11.24 00:52:41.873	--------------------------------------------------------------------------------
+							Start logon process
+
+23.11.24 00:52:41.878	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+23.11.24 00:52:41.883		ConnectionString: Data Source=tcp:127.0.0.1;Initial Catalog=DoAn;User ID=sa;XpoDataStorePool=True;
+23.11.24 00:52:41.885		ConnectionString: 
+23.11.24 00:52:41.896	Resolve the 'Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null' assembly
+23.11.24 00:52:43.076	--------------------------------------------------------------------------------
+							UpdateDB
+
+23.11.24 00:52:43.109		ConnectionString: Data Source=tcp:127.0.0.1;Initial Catalog=DoAn;User ID=sa;XpoDataStorePool=True;
+23.11.24 00:53:05.474	--------------------------------------------------------------------------------
+							Logon successful
+
+23.11.24 00:53:05.715	--------------------------------------------------------------------------------
+							Logon completed
+
+23.11.24 00:53:05.794		startUpActions: 1
+23.11.24 00:53:05.813	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+23.11.24 00:53:08.657	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:53:08.659		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+23.11.24 00:53:08.662	Action 'ConfigureSkin' done
+23.11.24 00:53:08.722	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:53:08.723		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+23.11.24 00:53:08.726	Action 'ConfigureSkin' done
+23.11.24 00:53:09.188	Action '58a6c260-c78e-4bc3-89bf-dc33a14d4a98' done
+23.11.24 00:53:09.191	Window closing: AuthenticationStandardLogonParameters_Win_DetailView
+23.11.24 00:53:09.199	Action 'Logon' done
+23.11.24 00:53:09.201	Window closed: AuthenticationStandardLogonParameters_Win_DetailView
+23.11.24 00:53:09.249	Application startup done
+=========================
+23.11.24 00:53:09.251	Application running
+====================
+23.11.24 00:53:13.177	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:53:13.179		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+23.11.24 00:53:13.182		SelectedItem: Nhóm hàng
+23.11.24 00:53:13.384	Action 'ShowNavigationItem' done
+23.11.24 00:53:18.206	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:53:18.208		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+23.11.24 00:53:18.209		SelectedItem: Nhóm hàng
+23.11.24 00:53:18.234	Action 'ShowNavigationItem' done
+23.11.24 00:53:20.038	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 00:53:20.039		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+23.11.24 00:53:20.042		SelectedItem: Nhóm hàng
+23.11.24 00:53:20.075	Action 'ShowNavigationItem' done
+23.11.24 00:53:45.061	Window closing: ApplicationUser_ListView
+23.11.24 00:53:45.087	Window closing: NhomSP_ListView
+23.11.24 00:53:45.090	Window closing: LightStyleMainRibbonForm
+23.11.24 00:53:45.261	Window closed: ApplicationUser_ListView
+23.11.24 00:53:45.265	Window closed: NhomSP_ListView
+23.11.24 00:53:45.269	Window closed: LightStyleMainRibbonForm
+23.11.24 00:53:45.578	Save model changes
+===================
+23.11.24 00:53:45.828	Save model changes
+===================
+23.11.24 00:53:45.878	--------------------------------------------------------------------------------
+							Logoff completed
+
+23.11.24 00:53:45.891	Application stopping
+=====================
+23.11.24 01:42:26.105	================================================================================
+23.11.24 01:42:26.116	Trace Log for DoAn.Win is started
+23.11.24 01:42:26.118	================================================================================
+23.11.24 01:42:26.121	System Environment
+	OS Version: Microsoft Windows NT 10.0.22631.0
+	CLR Version: 8.0.7
+	eXpressApp Version: 24.1.4.0
+	eXpressApp File Version: 24.1.4.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	eXpressAppFrameworkTraceLevel=3
+
+23.11.24 01:42:26.505	Initialize application
+=======================
+23.11.24 01:42:26.708	The ValueManagerType is initialized by the default value: SimpleValueManager.
+23.11.24 01:42:26.750	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   at DevExpress.ExpressApp.ReportsV2.Win.ReportsWindowsFormsModuleV2.Setup(XafApplication application)
+   at DevExpress.ExpressApp.XafApplication.ModuleList_ModuleAdded(Object sender, ModuleRegisteredEventArgs e)
+   at DevExpress.ExpressApp.ModuleList.SetupModule(ModuleBase module)
+   at DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   at System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   at DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinModuleBuilder.<>c__DisplayClass4_0`1.<Add>b__0(XafApplication application)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinApplicationBuilder.Build()
+   at DoAn.Win.ApplicationBuilder.BuildApplication(String connectionString) in D:\DoAn403W\DoAn\DoAn.Win\Startup.cs:line 77
+   at DoAn.Win.Program.Main(String[] args) in D:\DoAn403W\DoAn\DoAn.Win\Program.cs:line 63
+
+23.11.24 01:42:27.521	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+23.11.24 01:42:27.523	--------------------------------------------------------------------------------
+							
+
+23.11.24 01:42:27.566	--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\Accessibility.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	DevExpress.BonusSkins.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.BonusSkins.v24.1.dll
+	DevExpress.Data.Desktop.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Data.Desktop.v24.1.dll
+	DevExpress.Data.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Data.v24.1.dll
+	DevExpress.Drawing.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Drawing.v24.1.dll
+	DevExpress.ExpressApp.Chart.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Chart.v24.1.dll
+	DevExpress.ExpressApp.Chart.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Chart.Win.v24.1.dll
+	DevExpress.ExpressApp.CloneObject.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.CloneObject.Xpo.v24.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.ConditionalAppearance.v24.1.dll
+	DevExpress.ExpressApp.Dashboards.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Dashboards.v24.1.dll
+	DevExpress.ExpressApp.Dashboards.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Dashboards.Win.v24.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.FileAttachment.Win.v24.1.dll
+	DevExpress.ExpressApp.Objects.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Objects.v24.1.dll
+	DevExpress.ExpressApp.Office.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Office.v24.1.dll
+	DevExpress.ExpressApp.Office.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Office.Win.v24.1.dll
+	DevExpress.ExpressApp.ReportsV2.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.ReportsV2.v24.1.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.ReportsV2.Win.v24.1.dll
+	DevExpress.ExpressApp.Security.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Security.v24.1.dll
+	DevExpress.ExpressApp.Security.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Security.Xpo.v24.1.dll
+	DevExpress.ExpressApp.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.v24.1.dll
+	DevExpress.ExpressApp.Validation.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Validation.v24.1.dll
+	DevExpress.ExpressApp.Validation.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Validation.Win.v24.1.dll
+	DevExpress.ExpressApp.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Win.v24.1.dll
+	DevExpress.ExpressApp.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Xpo.v24.1.dll
+	DevExpress.Persistent.Base.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Persistent.Base.v24.1.dll
+	DevExpress.Persistent.BaseImpl.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Persistent.BaseImpl.Xpo.v24.1.dll
+	DevExpress.Printing.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Printing.v24.1.Core.dll
+	DevExpress.RichEdit.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.RichEdit.v24.1.Core.dll
+	DevExpress.Spreadsheet.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Spreadsheet.v24.1.Core.dll
+	DevExpress.Utils.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Utils.v24.1.dll
+	DevExpress.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Xpo.v24.1.dll
+	DevExpress.XtraBars.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraBars.v24.1.dll
+	DevExpress.XtraEditors.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraEditors.v24.1.dll
+	DevExpress.XtraReports.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraReports.v24.1.dll
+	DevExpress.XtraReports.v24.1.Extensions, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraReports.v24.1.Extensions.dll
+	DevExpress.XtraRichEdit.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraRichEdit.v24.1.dll
+	DevExpress.XtraSpreadsheet.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraSpreadsheet.v24.1.dll
+	DoAn.Module, Version=1.0.9093.3069, Culture=neutral, PublicKeyToken=null, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DoAn.Module.dll
+	DoAn.Win, Version=1.0.9093.3070, Culture=neutral, PublicKeyToken=null, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DoAn.Win.dll
+	Microsoft.Extensions.Configuration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+	Microsoft.Extensions.Configuration.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+	Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+	Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+	Microsoft.Extensions.DotNetDeltaApplier, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\hotreload\Microsoft.Extensions.DotNetDeltaApplier.dll
+	Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+	Microsoft.Extensions.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+	Microsoft.Win32.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\Microsoft.Win32.Registry.dll
+	Microsoft.Win32.SystemEvents, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\Microsoft.Win32.SystemEvents.dll
+	netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\netstandard.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.dll
+	System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.dll
+	System.Collections.Concurrent, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.Concurrent.dll
+	System.Collections.Immutable, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.Immutable.dll
+	System.Collections.NonGeneric, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.Specialized.dll
+	System.ComponentModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.dll
+	System.ComponentModel.EventBasedAsync, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Configuration.ConfigurationManager.dll
+	System.Console, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Console.dll
+	System.Data.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Data.Common.dll
+	System.Diagnostics.FileVersionInfo, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.FileVersionInfo.dll
+	System.Diagnostics.Process, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.Process.dll
+	System.Diagnostics.StackTrace, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.TraceSource.dll
+	System.Diagnostics.Tracing, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.Tracing.dll
+	System.Drawing, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Drawing.dll
+	System.Drawing.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Drawing.Primitives.dll
+	System.IO.Compression, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.IO.Compression.dll
+	System.IO.MemoryMappedFiles, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.IO.MemoryMappedFiles.dll
+	System.IO.Pipes, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.IO.Pipes.dll
+	System.Linq, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Linq.dll
+	System.Linq.Expressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Linq.Expressions.dll
+	System.Memory, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Memory.dll
+	System.Net.WebClient, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Net.WebClient.dll
+	System.Numerics.Vectors, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Numerics.Vectors.dll
+	System.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ObjectModel.dll
+	System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Private.CoreLib.dll
+	System.Private.Uri, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Private.Uri.dll
+	System.Private.Xml, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Private.Xml.dll
+	System.Reflection.Emit, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Metadata, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Metadata.dll
+	System.Reflection.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Primitives.dll
+	System.Resources.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Resources.Extensions.dll
+	System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.dll
+	System.Runtime.InteropServices, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Loader, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.Loader.dll
+	System.Runtime.Serialization.Formatters, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.Serialization.Formatters.dll
+	System.Security.AccessControl, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.AccessControl.dll
+	System.Security.Claims, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.Claims.dll
+	System.Security.Cryptography, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.Cryptography.dll
+	System.Security.Principal.Windows, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.Principal.Windows.dll
+	System.Text.Encoding.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Text.Encoding.Extensions.dll
+	System.Text.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Text.Json.dll
+	System.Text.RegularExpressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Text.RegularExpressions.dll
+	System.Threading, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.dll
+	System.Threading.Overlapped, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.Overlapped.dll
+	System.Threading.Thread, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.ThreadPool.dll
+	System.Windows.Forms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Windows.Forms.dll
+	System.Windows.Forms.Design, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Windows.Forms.Design.dll
+	System.Windows.Forms.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Windows.Forms.Primitives.dll
+	System.Xml.ReaderWriter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Xml.ReaderWriter.dll
+	System.Xml.XmlSerializer, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Xml.XmlSerializer.dll
+23.11.24 01:42:27.846	SetupModules
+23.11.24 01:42:28.149	Customize TypesInfo
+23.11.24 01:42:31.362		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+23.11.24 01:42:31.400		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+23.11.24 01:42:31.872	Logon With Parameters
+23.11.24 01:42:31.875		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: c47f4f78-8879-4b64-b70f-4fd6a8d4c2ab
+								Category: Unspecified
+
+23.11.24 01:42:31.984	Generate default Model for Action containers
+23.11.24 01:42:34.655	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:42:34.659		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Log In
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+
+23.11.24 01:42:34.665	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:42:34.668		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: c47f4f78-8879-4b64-b70f-4fd6a8d4c2ab
+								Category: Unspecified
+
+23.11.24 01:42:34.711	--------------------------------------------------------------------------------
+							Start logon process
+
+23.11.24 01:42:34.716	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+23.11.24 01:42:34.721		ConnectionString: Data Source=tcp:127.0.0.1;Initial Catalog=DoAn;User ID=sa;XpoDataStorePool=True;
+23.11.24 01:42:34.747		ConnectionString: 
+23.11.24 01:42:34.770	Resolve the 'Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null' assembly
+23.11.24 01:42:36.112	--------------------------------------------------------------------------------
+							UpdateDB
+
+23.11.24 01:42:36.125		ConnectionString: Data Source=tcp:127.0.0.1;Initial Catalog=DoAn;User ID=sa;XpoDataStorePool=True;
+23.11.24 01:42:47.731	--------------------------------------------------------------------------------
+							Logon successful
+
+23.11.24 01:42:47.919	--------------------------------------------------------------------------------
+							Logon completed
+
+23.11.24 01:42:48.015		startUpActions: 1
+23.11.24 01:42:48.036	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+23.11.24 01:42:48.959	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:42:48.961		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+23.11.24 01:42:48.963		SelectedItem: Users
+23.11.24 01:42:50.132	Action 'ShowNavigationItem' done
+23.11.24 01:42:51.012	Action 'c47f4f78-8879-4b64-b70f-4fd6a8d4c2ab' done
+23.11.24 01:42:51.015	Window closing: AuthenticationStandardLogonParameters_Win_DetailView
+23.11.24 01:42:51.099	Action 'Logon' done
+23.11.24 01:42:51.101	Window closed: AuthenticationStandardLogonParameters_Win_DetailView
+23.11.24 01:42:51.156	Application startup done
+=========================
+23.11.24 01:42:51.160	Application running
+====================
+23.11.24 01:43:05.122	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:43:05.126		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+23.11.24 01:43:05.130		SelectedItem: Hàng hóa
+23.11.24 01:43:05.354	Action 'ShowNavigationItem' done
+23.11.24 01:43:07.732	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:43:07.734		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+23.11.24 01:43:07.737		SelectedItem: Nhóm hàng
+23.11.24 01:43:07.847	Action 'ShowNavigationItem' done
+23.11.24 01:43:09.156	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:43:09.163		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+23.11.24 01:43:09.167		SelectedItem: Hàng hóa
+23.11.24 01:43:09.221	Action 'ShowNavigationItem' done
+23.11.24 01:43:34.829	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:43:34.831		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Nhóm hàng
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: 5c618f73-c653-4133-80b3-fd1c9750db70
+
+23.11.24 01:43:34.852	Action 'ListViewShowObject' done
+23.11.24 01:46:45.629	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:46:45.638		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: SaveAndClose
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Hàng hóa
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: 704d1f6e-04b9-448e-9ef8-04317b4ac8e8
+
+23.11.24 01:46:45.784	Window closing: SanPham_ListView
+23.11.24 01:46:45.791	Window closed: SanPham_ListView
+23.11.24 01:46:45.852	Action 'SaveAndClose' done
+23.11.24 01:46:49.712	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:46:49.714		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+23.11.24 01:46:49.717		SelectedItem: Hàng hóa
+23.11.24 01:46:49.865	Action 'ShowNavigationItem' done
+23.11.24 01:46:54.366	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:46:54.374		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Hàng hóa
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: 704d1f6e-04b9-448e-9ef8-04317b4ac8e8
+
+23.11.24 01:46:54.648	Action 'ListViewShowObject' done
+23.11.24 01:47:09.956	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:47:09.961		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: 6a01c1f3-f366-427c-982e-53618bae2f22
+								Category: Unspecified
+
+23.11.24 01:47:09.964	Action '6a01c1f3-f366-427c-982e-53618bae2f22' done
+23.11.24 01:47:13.095	Resolve the 'DevExpress.Design.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+23.11.24 01:47:13.117	Resolve the 'DevExpress.Design.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+23.11.24 01:47:13.120	Resolve the 'DevExpress.Design.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+23.11.24 01:47:13.123	Resolve the 'DevExpress.Design.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+23.11.24 01:47:13.126	Resolve the 'DevExpress.Design.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+23.11.24 01:47:13.130	Resolve the 'DevExpress.Design.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+23.11.24 01:47:13.135	Resolve the 'DevExpress.Design.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+23.11.24 01:47:13.142	Resolve the 'DevExpress.Design.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+23.11.24 01:47:13.144	Resolve the 'DevExpress.Design.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+23.11.24 01:47:13.146	Resolve the 'DevExpress.Design.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+23.11.24 01:47:13.148	Resolve the 'DevExpress.Design.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+23.11.24 01:47:13.150	Resolve the 'DevExpress.Design.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+23.11.24 01:47:13.152	Resolve the 'DevExpress.Design.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+23.11.24 01:47:13.156	Resolve the 'DevExpress.Design.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+23.11.24 01:47:13.157	Resolve the 'DevExpress.Design.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+23.11.24 01:47:13.159	Resolve the 'DevExpress.Design.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+23.11.24 01:47:13.161	Resolve the 'DevExpress.Design.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+23.11.24 01:47:13.162	Resolve the 'DevExpress.Design.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+23.11.24 01:47:20.589	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:47:20.593		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Nhóm hàng
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: f53aaf27-4dce-4e32-972a-27964efbbb7b
+
+23.11.24 01:47:20.635	Action 'ListViewShowObject' done
+23.11.24 01:47:24.199	'Nhom' property editor value changed
+23.11.24 01:47:24.231	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:47:24.233		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: SaveAndClose
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Hàng hóa
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: 704d1f6e-04b9-448e-9ef8-04317b4ac8e8
+
+23.11.24 01:47:24.296	Window closing: SanPham_DetailView
+23.11.24 01:47:24.324	Window closed: SanPham_DetailView
+23.11.24 01:47:24.372	Action 'SaveAndClose' done
+23.11.24 01:47:28.845	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:47:28.848		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Hàng hóa
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: 704d1f6e-04b9-448e-9ef8-04317b4ac8e8
+
+23.11.24 01:47:28.946	Action 'ListViewShowObject' done
+23.11.24 01:47:33.197	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:47:33.201		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+23.11.24 01:47:33.205		SelectedItem: Nhóm hàng
+23.11.24 01:47:33.242	Action 'ShowNavigationItem' done
+23.11.24 01:47:33.402	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:47:33.404		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+23.11.24 01:47:33.406		SelectedItem: Nhóm hàng
+23.11.24 01:47:33.416	Action 'ShowNavigationItem' done
+23.11.24 01:47:36.666	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:47:36.668		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Nhóm hàng
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: 5c618f73-c653-4133-80b3-fd1c9750db70
+
+23.11.24 01:47:36.946	Action 'ListViewShowObject' done
+23.11.24 01:47:44.171	Window closing: NhomSP_DetailView
+23.11.24 01:47:44.174	Window closed: NhomSP_DetailView
+23.11.24 01:47:46.152	Window closing: SanPham_DetailView
+23.11.24 01:47:46.158	Window closed: SanPham_DetailView
+23.11.24 01:47:49.190	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:47:49.193		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Nhóm hàng
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: 5c618f73-c653-4133-80b3-fd1c9750db70
+
+23.11.24 01:47:49.363	Action 'ListViewShowObject' done
+23.11.24 01:47:51.061	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:47:51.064		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: NextObject
+								Category: RecordsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RecordsNavigationController
+								Context.Name: Nhóm hàng
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: 5c618f73-c653-4133-80b3-fd1c9750db70
+
+23.11.24 01:47:51.087	Action 'NextObject' done
+23.11.24 01:48:06.064	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:48:06.067		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+23.11.24 01:48:06.070	Action 'ConfigureSkin' done
+23.11.24 01:48:28.723	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:48:28.768		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+23.11.24 01:48:28.770	Action 'ConfigureSkin' done
+23.11.24 01:48:32.221	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:48:32.224		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+23.11.24 01:48:32.225	Action 'ConfigureSkin' done
+23.11.24 01:48:36.582	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:48:36.583		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+23.11.24 01:48:36.584	Action 'ConfigureSkin' done
+23.11.24 01:48:39.299	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:48:39.301		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+23.11.24 01:48:39.302	Action 'ConfigureSkin' done
+23.11.24 01:48:45.513	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:48:45.515		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+23.11.24 01:48:45.516	Action 'ConfigureSkin' done
+23.11.24 01:48:50.110	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 01:48:50.155		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+23.11.24 01:48:50.158	Action 'ConfigureSkin' done
+23.11.24 01:48:53.870	Window closing: ApplicationUser_ListView
+23.11.24 01:48:53.873	Window closing: NhomSP_ListView
+23.11.24 01:48:53.874	Window closing: SanPham_ListView
+23.11.24 01:48:53.875	Window closing: NhomSP_DetailView
+23.11.24 01:48:53.877	Window closing: LightStyleMainRibbonForm
+23.11.24 01:48:54.130	Window closed: ApplicationUser_ListView
+23.11.24 01:48:54.131	Window closed: NhomSP_ListView
+23.11.24 01:48:54.132	Window closed: SanPham_ListView
+23.11.24 01:48:54.134	Window closed: NhomSP_DetailView
+23.11.24 01:48:54.135	Window closed: LightStyleMainRibbonForm
+23.11.24 01:48:54.294	Save model changes
+===================
+23.11.24 01:48:54.840	Save model changes
+===================
+23.11.24 01:48:55.021	--------------------------------------------------------------------------------
+							Logoff completed
+
+23.11.24 01:48:55.026	Application stopping
+=====================
+23.11.24 13:51:27.573	================================================================================
+23.11.24 13:51:27.581	Trace Log for DoAn.Win is started
+23.11.24 13:51:27.583	================================================================================
+23.11.24 13:51:27.586	System Environment
+	OS Version: Microsoft Windows NT 10.0.22631.0
+	CLR Version: 8.0.7
+	eXpressApp Version: 24.1.4.0
+	eXpressApp File Version: 24.1.4.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	eXpressAppFrameworkTraceLevel=3
+
+23.11.24 13:51:30.489	Initialize application
+=======================
+23.11.24 13:51:32.255	The ValueManagerType is initialized by the default value: SimpleValueManager.
+23.11.24 13:51:32.301	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   at DevExpress.ExpressApp.ReportsV2.Win.ReportsWindowsFormsModuleV2.Setup(XafApplication application)
+   at DevExpress.ExpressApp.XafApplication.ModuleList_ModuleAdded(Object sender, ModuleRegisteredEventArgs e)
+   at DevExpress.ExpressApp.ModuleList.SetupModule(ModuleBase module)
+   at DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   at System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   at DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinModuleBuilder.<>c__DisplayClass4_0`1.<Add>b__0(XafApplication application)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinApplicationBuilder.Build()
+   at DoAn.Win.ApplicationBuilder.BuildApplication(String connectionString) in D:\DoAn403W\DoAn\DoAn.Win\Startup.cs:line 77
+   at DoAn.Win.Program.Main(String[] args) in D:\DoAn403W\DoAn\DoAn.Win\Program.cs:line 63
+
+23.11.24 13:51:33.095	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+23.11.24 13:51:33.098	--------------------------------------------------------------------------------
+							
+
+23.11.24 13:51:33.113	--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\Accessibility.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	DevExpress.BonusSkins.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.BonusSkins.v24.1.dll
+	DevExpress.Data.Desktop.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Data.Desktop.v24.1.dll
+	DevExpress.Data.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Data.v24.1.dll
+	DevExpress.Drawing.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Drawing.v24.1.dll
+	DevExpress.ExpressApp.Chart.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Chart.v24.1.dll
+	DevExpress.ExpressApp.Chart.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Chart.Win.v24.1.dll
+	DevExpress.ExpressApp.CloneObject.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.CloneObject.Xpo.v24.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.ConditionalAppearance.v24.1.dll
+	DevExpress.ExpressApp.Dashboards.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Dashboards.v24.1.dll
+	DevExpress.ExpressApp.Dashboards.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Dashboards.Win.v24.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.FileAttachment.Win.v24.1.dll
+	DevExpress.ExpressApp.Objects.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Objects.v24.1.dll
+	DevExpress.ExpressApp.Office.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Office.v24.1.dll
+	DevExpress.ExpressApp.Office.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Office.Win.v24.1.dll
+	DevExpress.ExpressApp.ReportsV2.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.ReportsV2.v24.1.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.ReportsV2.Win.v24.1.dll
+	DevExpress.ExpressApp.Security.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Security.v24.1.dll
+	DevExpress.ExpressApp.Security.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Security.Xpo.v24.1.dll
+	DevExpress.ExpressApp.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.v24.1.dll
+	DevExpress.ExpressApp.Validation.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Validation.v24.1.dll
+	DevExpress.ExpressApp.Validation.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Validation.Win.v24.1.dll
+	DevExpress.ExpressApp.Win.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Win.v24.1.dll
+	DevExpress.ExpressApp.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.Xpo.v24.1.dll
+	DevExpress.Persistent.Base.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Persistent.Base.v24.1.dll
+	DevExpress.Persistent.BaseImpl.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Persistent.BaseImpl.Xpo.v24.1.dll
+	DevExpress.Printing.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Printing.v24.1.Core.dll
+	DevExpress.RichEdit.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.RichEdit.v24.1.Core.dll
+	DevExpress.Spreadsheet.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Spreadsheet.v24.1.Core.dll
+	DevExpress.Utils.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Utils.v24.1.dll
+	DevExpress.Xpo.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.Xpo.v24.1.dll
+	DevExpress.XtraBars.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraBars.v24.1.dll
+	DevExpress.XtraEditors.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraEditors.v24.1.dll
+	DevExpress.XtraReports.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraReports.v24.1.dll
+	DevExpress.XtraReports.v24.1.Extensions, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraReports.v24.1.Extensions.dll
+	DevExpress.XtraRichEdit.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraRichEdit.v24.1.dll
+	DevExpress.XtraSpreadsheet.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DevExpress.XtraSpreadsheet.v24.1.dll
+	DoAn.Module, Version=1.0.9093.24939, Culture=neutral, PublicKeyToken=null, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DoAn.Module.dll
+	DoAn.Win, Version=1.0.9093.24941, Culture=neutral, PublicKeyToken=null, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\DoAn.Win.dll
+	Microsoft.Extensions.Configuration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+	Microsoft.Extensions.Configuration.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+	Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+	Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+	Microsoft.Extensions.DotNetDeltaApplier, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\hotreload\Microsoft.Extensions.DotNetDeltaApplier.dll
+	Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+	Microsoft.Extensions.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\DoAn403W\DoAn\DoAn.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+	Microsoft.Win32.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\Microsoft.Win32.Registry.dll
+	Microsoft.Win32.SystemEvents, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\Microsoft.Win32.SystemEvents.dll
+	netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\netstandard.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.dll
+	System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.dll
+	System.Collections.Concurrent, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.Concurrent.dll
+	System.Collections.Immutable, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.Immutable.dll
+	System.Collections.NonGeneric, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Collections.Specialized.dll
+	System.ComponentModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.dll
+	System.ComponentModel.EventBasedAsync, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Configuration.ConfigurationManager.dll
+	System.Console, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Console.dll
+	System.Data.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Data.Common.dll
+	System.Diagnostics.FileVersionInfo, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.FileVersionInfo.dll
+	System.Diagnostics.Process, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.Process.dll
+	System.Diagnostics.StackTrace, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.TraceSource.dll
+	System.Diagnostics.Tracing, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Diagnostics.Tracing.dll
+	System.Drawing, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Drawing.dll
+	System.Drawing.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Drawing.Primitives.dll
+	System.IO.Compression, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.IO.Compression.dll
+	System.IO.MemoryMappedFiles, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.IO.MemoryMappedFiles.dll
+	System.IO.Pipes, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.IO.Pipes.dll
+	System.Linq, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Linq.dll
+	System.Linq.Expressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Linq.Expressions.dll
+	System.Memory, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Memory.dll
+	System.Net.WebClient, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Net.WebClient.dll
+	System.Numerics.Vectors, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Numerics.Vectors.dll
+	System.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.ObjectModel.dll
+	System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Private.CoreLib.dll
+	System.Private.Uri, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Private.Uri.dll
+	System.Private.Xml, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Private.Xml.dll
+	System.Reflection.Emit, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Metadata, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Metadata.dll
+	System.Reflection.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Reflection.Primitives.dll
+	System.Resources.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Resources.Extensions.dll
+	System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.dll
+	System.Runtime.InteropServices, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Loader, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.Loader.dll
+	System.Runtime.Serialization.Formatters, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Runtime.Serialization.Formatters.dll
+	System.Security.AccessControl, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.AccessControl.dll
+	System.Security.Claims, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.Claims.dll
+	System.Security.Cryptography, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.Cryptography.dll
+	System.Security.Principal.Windows, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Security.Principal.Windows.dll
+	System.Text.Encoding.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Text.Encoding.Extensions.dll
+	System.Text.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Text.Json.dll
+	System.Text.RegularExpressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Text.RegularExpressions.dll
+	System.Threading, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.dll
+	System.Threading.Overlapped, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.Overlapped.dll
+	System.Threading.Thread, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Threading.ThreadPool.dll
+	System.Windows.Forms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Windows.Forms.dll
+	System.Windows.Forms.Design, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Windows.Forms.Design.dll
+	System.Windows.Forms.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\System.Windows.Forms.Primitives.dll
+	System.Xml.ReaderWriter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Xml.ReaderWriter.dll
+	System.Xml.XmlSerializer, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.7\System.Xml.XmlSerializer.dll
+23.11.24 13:51:33.657	SetupModules
+23.11.24 13:51:33.847	Customize TypesInfo
+23.11.24 13:51:37.304		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+23.11.24 13:51:37.308		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+23.11.24 13:51:37.597	Logon With Parameters
+23.11.24 13:51:37.600		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 6685261f-2a92-4ba2-9ced-145a81cd2752
+								Category: Unspecified
+
+23.11.24 13:51:37.707	Generate default Model for Action containers
+23.11.24 13:51:39.582	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 13:51:39.585		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Log In
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+
+23.11.24 13:51:39.590	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 13:51:39.591		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 6685261f-2a92-4ba2-9ced-145a81cd2752
+								Category: Unspecified
+
+23.11.24 13:51:39.635	--------------------------------------------------------------------------------
+							Start logon process
+
+23.11.24 13:51:39.639	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+23.11.24 13:51:39.643		ConnectionString: Data Source=tcp:127.0.0.1;Initial Catalog=DoAn;User ID=sa;XpoDataStorePool=True;
+23.11.24 13:51:39.644		ConnectionString: 
+23.11.24 13:51:39.657	Resolve the 'Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null' assembly
+23.11.24 13:51:53.357	--------------------------------------------------------------------------------
+							UpdateDB
+
+23.11.24 13:52:02.910		ConnectionString: Data Source=tcp:127.0.0.1;Initial Catalog=DoAn;User ID=sa;XpoDataStorePool=True;
+23.11.24 13:52:19.440	--------------------------------------------------------------------------------
+							Logon successful
+
+23.11.24 13:52:19.659	--------------------------------------------------------------------------------
+							Logon completed
+
+23.11.24 13:52:19.960		startUpActions: 1
+23.11.24 13:52:19.985	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+23.11.24 13:52:23.205	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 13:52:23.208		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+23.11.24 13:52:23.212	Action 'ConfigureSkin' done
+23.11.24 13:52:23.382	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 13:52:23.384		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+23.11.24 13:52:23.386	Action 'ConfigureSkin' done
+23.11.24 13:52:24.003	Action '6685261f-2a92-4ba2-9ced-145a81cd2752' done
+23.11.24 13:52:24.007	Window closing: AuthenticationStandardLogonParameters_Win_DetailView
+23.11.24 13:52:24.015	Action 'Logon' done
+23.11.24 13:52:24.018	Window closed: AuthenticationStandardLogonParameters_Win_DetailView
+23.11.24 13:52:24.065	Application startup done
+=========================
+23.11.24 13:52:24.067	Application running
+====================
+23.11.24 13:52:31.916	Window closing: NhomSP_DetailView
+23.11.24 13:52:31.941	Window closed: NhomSP_DetailView
+23.11.24 13:52:33.690	Window closing: SanPham_ListView
+23.11.24 13:52:33.695	Window closed: SanPham_ListView
+23.11.24 13:52:38.836	Window closing: NhomSP_ListView
+23.11.24 13:52:38.839	Window closed: NhomSP_ListView
+23.11.24 13:52:42.040	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 13:52:42.048		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+23.11.24 13:52:42.051		SelectedItem: Nhóm hàng
+23.11.24 13:52:42.207	Action 'ShowNavigationItem' done
+23.11.24 13:52:51.604	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 13:52:51.607		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+23.11.24 13:52:51.610		SelectedItem: Hàng hóa
+23.11.24 13:52:51.704	Action 'ShowNavigationItem' done
+23.11.24 13:53:00.088	--------------------------------------------------------------------------------
+							Execute action
+
+23.11.24 13:53:00.093		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+23.11.24 13:53:00.096		SelectedItem: Nhóm hàng
+23.11.24 13:53:00.122	Action 'ShowNavigationItem' done
+23.11.24 13:54:15.543	Window closing: ApplicationUser_ListView
+23.11.24 13:54:15.547	Window closing: NhomSP_ListView
+23.11.24 13:54:15.550	Window closing: SanPham_ListView
+23.11.24 13:54:15.552	Window closing: LightStyleMainRibbonForm
+23.11.24 13:54:15.623	Window closed: ApplicationUser_ListView
+23.11.24 13:54:15.624	Window closed: NhomSP_ListView
+23.11.24 13:54:15.626	Window closed: SanPham_ListView
+23.11.24 13:54:15.627	Window closed: LightStyleMainRibbonForm
+23.11.24 13:54:15.794	Save model changes
+===================
+23.11.24 13:54:16.101	Save model changes
+===================
+23.11.24 13:54:16.171	--------------------------------------------------------------------------------
+							Logoff completed
+
+23.11.24 13:54:16.183	Application stopping
+=====================
