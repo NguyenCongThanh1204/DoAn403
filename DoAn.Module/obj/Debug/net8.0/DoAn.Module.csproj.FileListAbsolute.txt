@@ -10,3 +10,4 @@ D:\DoAn403W\DoAn\DoAn.Module\obj\Debug\net8.0\DoAn.Module.dll
 D:\DoAn403W\DoAn\DoAn.Module\obj\Debug\net8.0\refint\DoAn.Module.dll
 D:\DoAn403W\DoAn\DoAn.Module\obj\Debug\net8.0\DoAn.Module.pdb
 D:\DoAn403W\DoAn\DoAn.Module\obj\Debug\net8.0\ref\DoAn.Module.dll
+D:\DoAn403W\DoAn\DoAn.Module\obj\Debug\net8.0\DoAn.Module.sourcelink.json

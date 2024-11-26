@@ -56,7 +56,6 @@ namespace DoAn.Module.BusinessObjects
 
       
 
-
         private string _TenSP;
         [XafDisplayName("Tên hàng"),Size(255)]
         public string TenSP
@@ -75,15 +74,7 @@ namespace DoAn.Module.BusinessObjects
         }
 
 
-        private double _Vat;
-        [XafDisplayName("Vat")]
-        public double Vat
-        {
-            get { return _Vat; }
-            set { SetPropertyValue<double>(nameof(Vat), ref _Vat, value); }
-        }
-
-
+       
         private decimal _Giaban;
         [XafDisplayName("Giá bán")]
         public decimal Giaban

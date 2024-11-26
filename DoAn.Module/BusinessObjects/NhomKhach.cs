@@ -15,17 +15,17 @@ using System.Text;
 namespace DoAn.Module.BusinessObjects
 {
     [DefaultClassOptions]
-    [System.ComponentModel.DisplayName("Nhóm hàng")]
     [ImageName("BO_Contact")]
+    [System.ComponentModel.DisplayName("Nhóm khách")]
     [DefaultProperty("TenNhom")]
     [DefaultListViewOptions(MasterDetailMode.ListViewOnly, true, NewItemRowPosition.Top)]
     //[Persistent("DatabaseTableName")]
     // Specify more UI options using a declarative approach (https://documentation.devexpress.com/#eXpressAppFramework/CustomDocument112701).
-    public class NhomSP : BaseObject
+    public class NhomKhach : BaseObject
     { // Inherit from a different class to provide a custom primary key, concurrency and deletion behavior, etc. (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument113146.aspx).
         // Use CodeRush to create XPO classes and properties with a few keystrokes.
         // https://docs.devexpress.com/CodeRushForRoslyn/118557
-        public NhomSP(Session session)
+        public NhomKhach(Session session)
             : base(session)
         {
         }
@@ -35,7 +35,7 @@ namespace DoAn.Module.BusinessObjects
             // Place your initialization code here (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112834.aspx).
         }
         private string _TenNhom;
-        [XafDisplayName("Tên nhóm"),Size(100)]
+        [XafDisplayName("Tên nhóm"), Size(100)]
         public string TenNhom
         {
             get { return _TenNhom; }
@@ -43,21 +43,11 @@ namespace DoAn.Module.BusinessObjects
         }
 
 
-
-        [XafDisplayName("Số hàng")]
-        public int Sohang
-        {
-            get 
-            { 
-                return SanPhams.Count; 
-            }
-        }
-
         [DevExpress.Xpo.Aggregated, Association]
-        [XafDisplayName("Sản phẩm")]
-        public XPCollection<SanPham> SanPhams
+        [XafDisplayName("Khách hàng")]
+        public XPCollection<KhachHang> KhachHangs
         {
-            get { return GetCollection<SanPham>(nameof(SanPhams)); }
+            get { return GetCollection<KhachHang>(nameof(KhachHangs)); }
         }
 
     }

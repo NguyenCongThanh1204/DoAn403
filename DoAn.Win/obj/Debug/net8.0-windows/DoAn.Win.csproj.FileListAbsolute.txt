@@ -232,3 +232,4 @@ D:\DoAn403W\DoAn\DoAn.Win\obj\Debug\net8.0-windows\refint\DoAn.Win.dll
 D:\DoAn403W\DoAn\DoAn.Win\obj\Debug\net8.0-windows\DoAn.Win.pdb
 D:\DoAn403W\DoAn\DoAn.Win\obj\Debug\net8.0-windows\DoAn.Win.genruntimeconfig.cache
 D:\DoAn403W\DoAn\DoAn.Win\obj\Debug\net8.0-windows\ref\DoAn.Win.dll
+D:\DoAn403W\DoAn\DoAn.Win\obj\Debug\net8.0-windows\DoAn.Win.sourcelink.json

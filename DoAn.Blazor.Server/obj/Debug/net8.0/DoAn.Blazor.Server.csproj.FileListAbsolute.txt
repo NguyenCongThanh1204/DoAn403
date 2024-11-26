@@ -252,3 +252,4 @@ D:\DoAn403W\DoAn\DoAn.Blazor.Server\obj\Debug\net8.0\refint\DoAn.Blazor.Server.d
 D:\DoAn403W\DoAn\DoAn.Blazor.Server\obj\Debug\net8.0\DoAn.Blazor.Server.pdb
 D:\DoAn403W\DoAn\DoAn.Blazor.Server\obj\Debug\net8.0\DoAn.Blazor.Server.genruntimeconfig.cache
 D:\DoAn403W\DoAn\DoAn.Blazor.Server\obj\Debug\net8.0\ref\DoAn.Blazor.Server.dll
+D:\DoAn403W\DoAn\DoAn.Blazor.Server\obj\Debug\net8.0\DoAn.Blazor.Server.sourcelink.json
