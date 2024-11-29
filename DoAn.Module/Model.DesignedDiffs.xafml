@@ -3,9 +3,9 @@
   <BOModel>
     <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
   </BOModel>
-  <NavigationItems>
+  <NavigationItems StartupNavigationItem="SanPham_ListView">
     <Items>
-      <Item Id="@640174f2-fc95-4ca5-8f55-b621349233bb" Caption="Khách hàng" ImageName="BO_Lead_32x32" Index="1" IsNewNode="True">
+      <Item Id="@1ac09801-103f-421a-b736-8a39cdb164c4" Caption="Khách hàng" IsNewNode="True">
         <Items IsNewNode="True">
           <Item Id="NhomKhach_ListView" ViewId="NhomKhach_ListView" ObjectKey="" Index="0" IsNewNode="True" />
           <Item Id="KhachHang_ListView" ViewId="KhachHang_ListView" ObjectKey="" Index="1" IsNewNode="True" />
@@ -15,8 +15,6 @@
         <Items>
           <Item Id="KhachHang_ListView" Removed="True" />
           <Item Id="NhomKhach_ListView" Removed="True" />
-          <Item Id="NhomSP_ListView" Removed="True" />
-          <Item Id="SanPham_ListView" Removed="True" />
         </Items>
       </Item>
     </Items>
