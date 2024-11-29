@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DoAn.Blazor.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9174e7cf7312a36bc0597669824257fab96e77fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adfe1434de0c64ff37af29fbdbf6ed334146b938")]
 [assembly: System.Reflection.AssemblyProductAttribute("DoAn.Blazor.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DoAn.Blazor.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.*")]
