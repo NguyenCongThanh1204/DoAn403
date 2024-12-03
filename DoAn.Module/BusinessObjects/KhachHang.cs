@@ -46,6 +46,20 @@ namespace DoAn.Module.BusinessObjects
         }
 
 
+        [DevExpress.Xpo.Aggregated, Association("khach-chi")]
+        [XafDisplayName("Phiếu chi")]
+        public XPCollection<PhieuChi> PhieuChis
+        {
+            get { return GetCollection<PhieuChi>(nameof(PhieuChis)); }
+        }
+
+        [DevExpress.Xpo.Aggregated, Association("khach-thu")]
+        [XafDisplayName("Phiếu thu")]
+        public XPCollection<PhieuThu> PhieuThus
+        {
+            get { return GetCollection<PhieuThu>(nameof(PhieuThus)); }
+        }
+
         private string _TenKH;
         [XafDisplayName("Tên khách hàng"),Size(255)]
         public string TenKH

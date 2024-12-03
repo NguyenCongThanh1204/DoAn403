@@ -5,16 +5,24 @@
   </BOModel>
   <NavigationItems StartupNavigationItem="SanPham_ListView">
     <Items>
-      <Item Id="@1ac09801-103f-421a-b736-8a39cdb164c4" Caption="Khách hàng" IsNewNode="True">
+      <Item Id="@1ac09801-103f-421a-b736-8a39cdb164c4" Caption="Khách hàng" Index="1" IsNewNode="True">
         <Items IsNewNode="True">
           <Item Id="NhomKhach_ListView" ViewId="NhomKhach_ListView" ObjectKey="" Index="0" IsNewNode="True" />
           <Item Id="KhachHang_ListView" ViewId="KhachHang_ListView" ObjectKey="" Index="1" IsNewNode="True" />
         </Items>
       </Item>
-      <Item Id="Default">
+      <Item Id="@13d9b869-8ebc-492c-a867-05de78dfc7aa" Caption="Chứng từ" Index="2" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="PhieuThu_ListView" ViewId="PhieuThu_ListView" ObjectKey="" Index="0" IsNewNode="True" />
+          <Item Id="PhieuChi_ListView" ViewId="PhieuChi_ListView" ObjectKey="" Index="1" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Default" Index="3">
         <Items>
           <Item Id="KhachHang_ListView" Removed="True" />
           <Item Id="NhomKhach_ListView" Removed="True" />
+          <Item Id="PhieuChi_ListView" Removed="True" />
+          <Item Id="PhieuThu_ListView" Removed="True" />
         </Items>
       </Item>
     </Items>
@@ -46,6 +54,46 @@
                 <LayoutItem Id="GhiChu" RelativeSize="2.8508771929824563" />
                 <LayoutItem Id="Nhom" ViewItem="Nhom" Index="2" RelativeSize="93.20175438596492" IsNewNode="True" />
               </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="PhieuChi_DetailView">
+      <Items>
+        <PropertyEditor Id="Ketoan" PropertyName="Ketoan" IsNewNode="True" />
+        <PropertyEditor Id="Khach" PropertyName="Khach" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="PhieuChi" RelativeSize="100">
+              <LayoutItem Id="SoCT" RelativeSize="5.521472392638037" />
+              <LayoutItem Id="NgayCT" RelativeSize="3.9877300613496933" />
+              <LayoutItem Id="SoTien" RelativeSize="3.9877300613496933" />
+              <LayoutItem Id="Khach" ViewItem="Khach" Index="3" RelativeSize="3.9877300613496933" IsNewNode="True" />
+              <LayoutItem Id="Ketoan" ViewItem="Ketoan" Index="4" RelativeSize="3.9877300613496933" IsNewNode="True" />
+              <LayoutItem Id="ghichu" Index="5" RelativeSize="78.52760736196319" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="PhieuThu_DetailView">
+      <Items>
+        <PropertyEditor Id="Ketoan" PropertyName="Ketoan" IsNewNode="True" />
+        <PropertyEditor Id="Khach" PropertyName="Khach" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="PhieuThu" RelativeSize="100">
+              <LayoutItem Id="SoCT" RelativeSize="6.513409961685824" />
+              <LayoutItem Id="NgayCT" RelativeSize="4.980842911877395" />
+              <LayoutItem Id="SoTien" RelativeSize="4.980842911877395" />
+              <LayoutItem Id="Khach" ViewItem="Khach" Index="3" RelativeSize="4.980842911877395" IsNewNode="True" />
+              <LayoutItem Id="Ketoan" ViewItem="Ketoan" Index="4" RelativeSize="4.980842911877395" IsNewNode="True" />
+              <LayoutItem Id="ghichu" Index="5" RelativeSize="73.5632183908046" />
             </LayoutGroup>
           </LayoutGroup>
         </LayoutGroup>

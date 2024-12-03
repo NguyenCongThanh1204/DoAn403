@@ -35,6 +35,20 @@ namespace DoAn.Module.BusinessObjects
             // Place your initialization code here (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112834.aspx).
         }
 
+        [DevExpress.Xpo.Aggregated, Association("kt-chi")]
+        [XafDisplayName("Phiếu chi")]
+        public XPCollection<PhieuChi> PhieuChis
+        {
+            get { return GetCollection<PhieuChi>(nameof(PhieuChis)); }
+        }
+
+        [DevExpress.Xpo.Aggregated, Association("kt-thu")]
+        [XafDisplayName("Phiếu thu")]
+        public XPCollection<PhieuThu> PhieuThus
+        {
+            get { return GetCollection<PhieuThu>(nameof(PhieuThus)); }
+        }
+
 
         private string _TaiKhoan;
         [XafDisplayName("Tài khoản"),Size(12)]
