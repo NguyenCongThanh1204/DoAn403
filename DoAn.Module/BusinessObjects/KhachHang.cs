@@ -104,6 +104,8 @@ namespace DoAn.Module.BusinessObjects
             set { SetPropertyValue<string>(nameof(GhiChu), ref _GhiChu, value); }
         }
 
+        //phuong
+
 
     }
 }
