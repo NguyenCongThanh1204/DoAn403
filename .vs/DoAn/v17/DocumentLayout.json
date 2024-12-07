@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\DoAn403W\\DoAn\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1CB23ACE-88CC-4E99-9121-720872F461CD}|DoAn.Module\\DoAn.Module.csproj|d:\\doan403w\\doan\\doan.module\\businessobjects\\phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CB23ACE-88CC-4E99-9121-720872F461CD}|DoAn.Module\\DoAn.Module.csproj|solutionrelative:doan.module\\businessobjects\\phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1CB23ACE-88CC-4E99-9121-720872F461CD}|DoAn.Module\\DoAn.Module.csproj|d:\\doan403w\\doan\\doan.module\\businessobjects\\phieuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CB23ACE-88CC-4E99-9121-720872F461CD}|DoAn.Module\\DoAn.Module.csproj|solutionrelative:doan.module\\businessobjects\\phieuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +15,8 @@
       "RelativeMoniker": "D:0:0:{1CB23ACE-88CC-4E99-9121-720872F461CD}|DoAn.Module\\DoAn.Module.csproj|solutionrelative:doan.module\\businessobjects\\phieuthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CB23ACE-88CC-4E99-9121-720872F461CD}|DoAn.Module\\DoAn.Module.csproj|d:\\doan403w\\doan\\doan.module\\businessobjects\\nhomkhach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CB23ACE-88CC-4E99-9121-720872F461CD}|DoAn.Module\\DoAn.Module.csproj|solutionrelative:doan.module\\businessobjects\\nhomkhach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1CB23ACE-88CC-4E99-9121-720872F461CD}|DoAn.Module\\DoAn.Module.csproj|d:\\doan403w\\doan\\doan.module\\businessobjects\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CB23ACE-88CC-4E99-9121-720872F461CD}|DoAn.Module\\DoAn.Module.csproj|solutionrelative:doan.module\\businessobjects\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CB23ACE-88CC-4E99-9121-720872F461CD}|DoAn.Module\\DoAn.Module.csproj|d:\\doan403w\\doan\\doan.module\\businessobjects\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CB23ACE-88CC-4E99-9121-720872F461CD}|DoAn.Module\\DoAn.Module.csproj|solutionrelative:doan.module\\businessobjects\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CB23ACE-88CC-4E99-9121-720872F461CD}|DoAn.Module\\DoAn.Module.csproj|d:\\doan403w\\doan\\doan.module\\businessobjects\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,22 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NhomKhach.cs",
-              "DocumentMoniker": "D:\\DoAn403W\\DoAn\\DoAn.Module\\BusinessObjects\\NhomKhach.cs",
-              "RelativeDocumentMoniker": "DoAn.Module\\BusinessObjects\\NhomKhach.cs",
-              "ToolTip": "D:\\DoAn403W\\DoAn\\DoAn.Module\\BusinessObjects\\NhomKhach.cs",
-              "RelativeToolTip": "DoAn.Module\\BusinessObjects\\NhomKhach.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAcwAsAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T14:39:13.309Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -61,10 +43,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
@@ -77,19 +55,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PhieuNhap.cs",
+              "DocumentMoniker": "D:\\DoAn403W\\DoAn\\DoAn.Module\\BusinessObjects\\PhieuNhap.cs",
+              "RelativeDocumentMoniker": "DoAn.Module\\BusinessObjects\\PhieuNhap.cs",
+              "ToolTip": "D:\\DoAn403W\\DoAn\\DoAn.Module\\BusinessObjects\\PhieuNhap.cs",
+              "RelativeToolTip": "DoAn.Module\\BusinessObjects\\PhieuNhap.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T07:56:00.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PhieuChi.cs",
               "DocumentMoniker": "D:\\DoAn403W\\DoAn\\DoAn.Module\\BusinessObjects\\PhieuChi.cs",
               "RelativeDocumentMoniker": "DoAn.Module\\BusinessObjects\\PhieuChi.cs",
               "ToolTip": "D:\\DoAn403W\\DoAn\\DoAn.Module\\BusinessObjects\\PhieuChi.cs",
               "RelativeToolTip": "DoAn.Module\\BusinessObjects\\PhieuChi.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAgwDgAAABTAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAowB8AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T16:41:35.649Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PhieuThu.cs",
               "DocumentMoniker": "D:\\DoAn403W\\DoAn\\DoAn.Module\\BusinessObjects\\PhieuThu.cs",
               "RelativeDocumentMoniker": "DoAn.Module\\BusinessObjects\\PhieuThu.cs",
@@ -97,12 +88,11 @@
               "RelativeToolTip": "DoAn.Module\\BusinessObjects\\PhieuThu.cs",
               "ViewState": "AQIAADYAAAAAAAAAAAAgwEEAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T16:40:50.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T16:40:50.649Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "NhanVien.cs",
               "DocumentMoniker": "D:\\DoAn403W\\DoAn\\DoAn.Module\\BusinessObjects\\NhanVien.cs",
               "RelativeDocumentMoniker": "DoAn.Module\\BusinessObjects\\NhanVien.cs",
@@ -110,21 +100,7 @@
               "RelativeToolTip": "DoAn.Module\\BusinessObjects\\NhanVien.cs",
               "ViewState": "AQIAACMAAAAAAAAAAAAUwCwAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T14:55:10.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "KhachHang.cs",
-              "DocumentMoniker": "D:\\DoAn403W\\DoAn\\DoAn.Module\\BusinessObjects\\KhachHang.cs",
-              "RelativeDocumentMoniker": "DoAn.Module\\BusinessObjects\\KhachHang.cs",
-              "ToolTip": "D:\\DoAn403W\\DoAn\\DoAn.Module\\BusinessObjects\\KhachHang.cs",
-              "RelativeToolTip": "DoAn.Module\\BusinessObjects\\KhachHang.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T14:42:52.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T14:55:10.794Z"
             },
             {
               "$type": "Document",
@@ -136,12 +112,11 @@
               "RelativeToolTip": "DoAn.Module\\BusinessObjects\\SanPham.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABEAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T18:05:23.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T18:05:23.164Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "NhomSP.cs",
               "DocumentMoniker": "D:\\DoAn403W\\DoAn\\DoAn.Module\\BusinessObjects\\NhomSP.cs",
               "RelativeDocumentMoniker": "DoAn.Module\\BusinessObjects\\NhomSP.cs",
@@ -149,8 +124,7 @@
               "RelativeToolTip": "DoAn.Module\\BusinessObjects\\NhomSP.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAQwCoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T17:30:58.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T17:30:58.06Z"
             }
           ]
         },
