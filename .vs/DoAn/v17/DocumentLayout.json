@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\DoAn403W\\DoAn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1CB23ACE-88CC-4E99-9121-720872F461CD}|DoAn.Module\\DoAn.Module.csproj|d:\\doan403w\\doan\\doan.module\\businessobjects\\phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CB23ACE-88CC-4E99-9121-720872F461CD}|DoAn.Module\\DoAn.Module.csproj|solutionrelative:doan.module\\businessobjects\\phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CB23ACE-88CC-4E99-9121-720872F461CD}|DoAn.Module\\DoAn.Module.csproj|d:\\doan403w\\doan\\doan.module\\businessobjects\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CB23ACE-88CC-4E99-9121-720872F461CD}|DoAn.Module\\DoAn.Module.csproj|solutionrelative:doan.module\\businessobjects\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CB23ACE-88CC-4E99-9121-720872F461CD}|DoAn.Module\\DoAn.Module.csproj|d:\\doan403w\\doan\\doan.module\\businessobjects\\phieuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,14 +55,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PhieuNhap.cs",
-              "DocumentMoniker": "D:\\DoAn403W\\DoAn\\DoAn.Module\\BusinessObjects\\PhieuNhap.cs",
-              "RelativeDocumentMoniker": "DoAn.Module\\BusinessObjects\\PhieuNhap.cs",
-              "ToolTip": "D:\\DoAn403W\\DoAn\\DoAn.Module\\BusinessObjects\\PhieuNhap.cs",
-              "RelativeToolTip": "DoAn.Module\\BusinessObjects\\PhieuNhap.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAwC0AAAAAAAAA",
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "D:\\DoAn403W\\DoAn\\DoAn.Module\\BusinessObjects\\KhachHang.cs",
+              "RelativeDocumentMoniker": "DoAn.Module\\BusinessObjects\\KhachHang.cs",
+              "ToolTip": "D:\\DoAn403W\\DoAn\\DoAn.Module\\BusinessObjects\\KhachHang.cs",
+              "RelativeToolTip": "DoAn.Module\\BusinessObjects\\KhachHang.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T07:56:00.844Z",
+              "WhenOpened": "2024-12-07T17:20:27.76Z",
               "EditorCaption": ""
             },
             {
