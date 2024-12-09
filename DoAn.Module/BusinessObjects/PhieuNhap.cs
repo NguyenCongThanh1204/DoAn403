@@ -15,9 +15,10 @@ using System.Text;
 namespace DoAn.Module.BusinessObjects
 {
     [DefaultClassOptions]
-    //[ImageName("BO_Contact")]
-    //[DefaultProperty("DisplayMemberNameForLookupEditorsOfThisType")]
-    //[DefaultListViewOptions(MasterDetailMode.ListViewOnly, false, NewItemRowPosition.None)]
+    [ImageName("BO_Contact")]
+    [System.ComponentModel.DisplayName("Phiếu nhập")]
+    [DefaultProperty("SoCT")]
+    //[DefaultListViewOptions(MasterDetailMode.ListViewOnly, true, NewItemRowPosition.Top)]
     //[Persistent("DatabaseTableName")]
     // Specify more UI options using a declarative approach (https://documentation.devexpress.com/#eXpressAppFramework/CustomDocument112701).
     public class PhieuNhap : BaseObject
@@ -31,16 +32,80 @@ namespace DoAn.Module.BusinessObjects
         public override void AfterConstruction()
         {
             base.AfterConstruction();
+            if (Session.IsNewObject(this))
+            {
+                NgayCT = DateTime.Now;
+            }
             // Place your initialization code here (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112834.aspx).
+        }
+        private KhachHang _Khach;
+        [XafDisplayName("chi cho")]
+        [Association("khach-nhap")]
+        public KhachHang Khach
+        {
+            get { return _Khach; }
+            set { SetPropertyValue<KhachHang>(nameof(Khach), ref _Khach, value); }
+        }
+
+        private NhanVien _Ketoan;
+        [XafDisplayName("Kế toán")]
+        [Association("kt-nhap")]
+        public NhanVien Ketoan
+        {
+            get { return _Ketoan; }
+            set { SetPropertyValue<NhanVien>(nameof(Ketoan), ref _Ketoan, value); }
         }
 
         private string _SoCT;
+        [XafDisplayName("Số CT"), Size(20), RuleUniqueValue]
         public string SoCT
         {
             get { return _SoCT; }
             set { SetPropertyValue<string>(nameof(SoCT), ref _SoCT, value); }
         }
 
+        private DateTime _NgayCT;
+        [XafDisplayName("Ngày CT")]
+        [ModelDefault("EditMák", "dd/MM/yyyy HH:mm")]
+        [ModelDefault("DisplayFormat", "{0:dd/MM/yyyy HH:mm}")]
+        public DateTime NgayCT
+        {
+            get { return _NgayCT; }
+            set { SetPropertyValue<DateTime>(nameof(NgayCT), ref _NgayCT, value); }
+        }
 
+        private String _SoHD;
+        [XafDisplayName("Số CT"), Size(20)]
+        public String SoHD
+        {
+            get { return _SoHD; }
+            set { SetPropertyValue<String>(nameof(SoHD), ref _SoHD, value); }
+        }
+
+        private DateTime _NgayHD;
+        [XafDisplayName("Ngày HD")]
+        [ModelDefault("EditMák", "dd/MM/yyyy HH:mm")]
+        [ModelDefault("DisplayFormat", "{0:dd/MM/yyyy HH:mm}")]
+        public DateTime NgayHD
+        {
+            get { return _NgayHD; }
+            set { SetPropertyValue<DateTime>(nameof(NgayHD), ref _NgayHD, value); }
+        }
+
+        private Decimal _SoTien;
+        [XafDisplayName("Số tiền")]
+        public Decimal SoTien
+        {
+            get { return _SoTien; }
+            set { SetPropertyValue<Decimal>(nameof(SoTien), ref _SoTien, value); }
+        }
+
+        private string _ghichu;
+        [XafDisplayName("Ghi chú"), Size(255)]
+        public string ghichu
+        {
+            get { return _ghichu; }
+            set { SetPropertyValue<string>(nameof(ghichu), ref _ghichu, value); }
+        }
     }
 }
