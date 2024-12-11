@@ -18,7 +18,7 @@ namespace DoAn.Module.BusinessObjects
     [ImageName("BO_Contact")]
     [System.ComponentModel.DisplayName("Phiếu nhập")]
     [DefaultProperty("SoCT")]
-    //[DefaultListViewOptions(MasterDetailMode.ListViewOnly, true, NewItemRowPosition.Top)]
+    [DefaultListViewOptions(MasterDetailMode.ListViewOnly, true, NewItemRowPosition.Top)]
     //[Persistent("DatabaseTableName")]
     // Specify more UI options using a declarative approach (https://documentation.devexpress.com/#eXpressAppFramework/CustomDocument112701).
     public class PhieuNhap : BaseObject
@@ -38,8 +38,14 @@ namespace DoAn.Module.BusinessObjects
             }
             // Place your initialization code here (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112834.aspx).
         }
+        protected override void OnSaving()
+        {
+            
+            base.OnSaving();
+            Tinhtong();
+        }
         private KhachHang _Khach;
-        [XafDisplayName("chi cho")]
+        [XafDisplayName("Nhà cung cấp")]
         [Association("khach-nhap")]
         public KhachHang Khach
         {
@@ -107,5 +113,31 @@ namespace DoAn.Module.BusinessObjects
             get { return _ghichu; }
             set { SetPropertyValue<string>(nameof(ghichu), ref _ghichu, value); }
         }
+
+        [DevExpress.Xpo.Aggregated, Association]
+        [XafDisplayName("Nhập")]
+        public XPCollection<DongNhap> DongNhaps
+        {
+            get { return GetCollection<DongNhap>(nameof(DongNhaps)); }
+        }
+
+        private decimal _Tongtien;
+        [XafDisplayName("Tổng tiền"), ModelDefault("AllowEdit","false")]
+        [ModelDefault("DisplayFormat","{0:### ### ### ###}")]
+        public decimal Tongtien
+        {
+            get { return _Tongtien; }
+            set { SetPropertyValue<decimal>(nameof(Tongtien), ref _Tongtien, value); }
+        }
+        public void Tinhtong()
+        {
+            decimal tong = 0;
+            foreach(DongNhap dong in DongNhaps)
+            {
+                tong += dong.Thanhtien;
+            }    
+            Tongtien = tong;
+        }
+
     }
 }

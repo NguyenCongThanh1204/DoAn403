@@ -79,6 +79,7 @@ namespace DoAn.Module.BusinessObjects
 
         private Decimal _SoTien;
         [XafDisplayName("Số tiền")]
+        [ModelDefault("DisplayFormat", "{0:### ### ### ###}")]
         public Decimal SoTien
         {
             get { return _SoTien; }

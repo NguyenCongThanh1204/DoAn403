@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "DoAn.WebApi.JWT.AuthenticationController",
+    "Method": "Authenticate",
+    "RelativePath": "api/Authentication/Authenticate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "logonParameters",
+        "Type": "DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DoAn.WebApi.Reports.ReportController",
+    "Method": "DownloadByKey",
+    "RelativePath": "api/Report/DownloadByKey({key})",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "fileType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "criteria",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DoAn.WebApi.Reports.ReportController",
+    "Method": "DownloadByName",
+    "RelativePath": "api/Report/DownloadByName({displayName})",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "displayName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "fileType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "criteria",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

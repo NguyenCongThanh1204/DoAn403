@@ -11,3 +11,16 @@ D:\DoAn403W\DoAn\DoAn.Module\obj\Debug\net8.0\refint\DoAn.Module.dll
 D:\DoAn403W\DoAn\DoAn.Module\obj\Debug\net8.0\DoAn.Module.pdb
 D:\DoAn403W\DoAn\DoAn.Module\obj\Debug\net8.0\ref\DoAn.Module.dll
 D:\DoAn403W\DoAn\DoAn.Module\obj\Debug\net8.0\DoAn.Module.sourcelink.json
+D:\Git\doAN\DoAn403\DoAn.Module\bin\Debug\net8.0\DoAn.Module.deps.json
+D:\Git\doAN\DoAn403\DoAn.Module\bin\Debug\net8.0\DoAn.Module.dll
+D:\Git\doAN\DoAn403\DoAn.Module\bin\Debug\net8.0\DoAn.Module.pdb
+D:\Git\doAN\DoAn403\DoAn.Module\obj\Debug\net8.0\DoAn.Module.csproj.AssemblyReference.cache
+D:\Git\doAN\DoAn403\DoAn.Module\obj\Debug\net8.0\DoAn.Module.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\doAN\DoAn403\DoAn.Module\obj\Debug\net8.0\DoAn.Module.AssemblyInfoInputs.cache
+D:\Git\doAN\DoAn403\DoAn.Module\obj\Debug\net8.0\DoAn.Module.AssemblyInfo.cs
+D:\Git\doAN\DoAn403\DoAn.Module\obj\Debug\net8.0\DoAn.Module.csproj.CoreCompileInputs.cache
+D:\Git\doAN\DoAn403\DoAn.Module\obj\Debug\net8.0\DoAn.Module.sourcelink.json
+D:\Git\doAN\DoAn403\DoAn.Module\obj\Debug\net8.0\DoAn.Module.dll
+D:\Git\doAN\DoAn403\DoAn.Module\obj\Debug\net8.0\refint\DoAn.Module.dll
+D:\Git\doAN\DoAn403\DoAn.Module\obj\Debug\net8.0\DoAn.Module.pdb
+D:\Git\doAN\DoAn403\DoAn.Module\obj\Debug\net8.0\ref\DoAn.Module.dll
