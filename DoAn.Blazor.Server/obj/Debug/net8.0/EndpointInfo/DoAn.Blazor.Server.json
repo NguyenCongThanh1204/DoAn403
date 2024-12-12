@@ -106,6 +106,235 @@
         }
       }
     },
+    "/api/Localization/ActionCaption": {
+      "get": {
+        "tags": [
+          "Localization"
+        ],
+        "summary": "Gets the specified Action's caption localized according to the specified language or current browser language settings.",
+        "description": "For more information, refer to the following article: <a href='https://docs.devexpress.com/eXpressAppFramework/403982/backend-web-api-service/access-localization-from-web-api-controller'>Obtain Localization Strings from a Web API Controller Endpoint</a>.",
+        "operationId": "GET_api/Localization/ActionCaption",
+        "parameters": [
+          {
+            "name": "actionName",
+            "in": "query",
+            "description": "The identifier of the Action. You can find this identifier in the <b>Id</b> property of the Model Editor's <b>Actions | &lt;ActionName&gt;</b> node. <br/>Example: 'AddNewItem'",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The localization language. <br/> Example: 'de-DE'",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": "en-US"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Localization/ClassCaption": {
+      "get": {
+        "tags": [
+          "Localization"
+        ],
+        "summary": "Gets the specified business class caption localized according to the specified language or current browser language settings.",
+        "description": "For more information, refer to the following article: <a href='https://docs.devexpress.com/eXpressAppFramework/403982/backend-web-api-service/access-localization-from-web-api-controller'>Obtain Localization Strings from a Web API Controller Endpoint</a>.",
+        "operationId": "GET_api/Localization/ClassCaption",
+        "parameters": [
+          {
+            "name": "classFullName",
+            "in": "query",
+            "description": "The fully-qualified name of the business class. You can find this name in the <b>Name</b> property of the Model Editor's <b>BOModel | &lt;Class&gt;</b> node. <br/>Example: 'MainDemo.Module.BusinessObjects.Employee'",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The localization language. <br/> Example: 'de-DE'",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": "en-US"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Localization/MemberCaption": {
+      "get": {
+        "tags": [
+          "Localization"
+        ],
+        "summary": "Gets the specified member's caption localized according to the specified language or current browser language settings.",
+        "description": "For more information, refer to the following article: <a href='https://docs.devexpress.com/eXpressAppFramework/403982/backend-web-api-service/access-localization-from-web-api-controller'>Obtain Localization Strings from a Web API Controller Endpoint</a>.",
+        "operationId": "GET_api/Localization/MemberCaption",
+        "parameters": [
+          {
+            "name": "classFullName",
+            "in": "query",
+            "description": "The fully-qualified name of the business class that contains the target member. You can find this name in the <b>Name</b> property of the Model Editor's <b>BOModel | &lt;Class&gt;</b> node.  <br/>Example: 'MainDemo.Module.BusinessObjects.Employee'",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "memberName",
+            "in": "query",
+            "description": " The name of the member. You can find this name in the <b>Name</b> property of the Model Editor's <b>BOModel | &lt;Class&gt; | OwnMembers | &lt;Member&gt;</b> node. <br/>Example: 'FirstName'",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The localization language. <br/> Example: 'de-DE'",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": "en-US"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Localization/LocalizedText": {
+      "get": {
+        "tags": [
+          "Localization"
+        ],
+        "summary": "Gets the specified localization item's value according to the specified language or current browser language settings.",
+        "description": "For more information, refer to the following article: <a href='https://docs.devexpress.com/eXpressAppFramework/403982/backend-web-api-service/access-localization-from-web-api-controller'>Obtain Localization Strings from a Web API Controller Endpoint</a>.",
+        "operationId": "GET_api/Localization/LocalizedText",
+        "parameters": [
+          {
+            "name": "groupPath",
+            "in": "query",
+            "description": "The name of the localization group that contains the target localization item. You can find this path in the <b>Name</b> property of the Model Editor's <b>Localization | &lt;LocalizationGroup&gt;</b> node. <br/>Example: 'Messages'",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "itemName",
+            "in": "query",
+            "description": "The name of the localization item. You can find this name in the <b>Name</b> property of the Model Editor's <b>Localization | &lt;LocalizationGroup&gt; | &lt;LocalizationItem&gt;</b> node. <br/>Example: 'CannotUploadFile'",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The localization language. <br/> Example: 'de-DE'",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": "en-US"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/MediaFile/DownloadStream": {
+      "get": {
+        "tags": [
+          "MediaFile"
+        ],
+        "summary": "Gets BLOB data from the specified property of a business object.",
+        "description": "For more information, refer to the following article: <a href='https://docs.devexpress.com/eXpressAppFramework/404207/backend-web-api-service/obtain-blob-data-from-a-web-api-controller-endpoint'>Obtain BLOB Data from a Web API Controller Endpoint</a>.",
+        "operationId": "GET_api/MediaFile/DownloadStream",
+        "parameters": [
+          {
+            "name": "objectType",
+            "in": "query",
+            "description": "An object's type name in either the short or fully-qualified format. <br/>Examples: 'Employee', 'MainDemo.Module.BusinessObjects.Employee'",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "objectKey",
+            "in": "query",
+            "description": "A primary key value that uniquely identifies an object. <br/>Example: 'C4890105-CF95-4DFA-8083-08DACE0F086B'",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "propertyName",
+            "in": "query",
+            "description": "The name of an object's property that contains BLOB data. <br/>Example: 'Photo'",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/odata/$metadata": {
+      "get": {
+        "tags": [
+          "Metadata"
+        ],
+        "operationId": "GET_api/odata/$metadata",
+        "responses": {
+          "200": {
+            "description": "The IEdmModel representing $metadata"
+          }
+        }
+      }
+    },
+    "/api/odata": {
+      "get": {
+        "tags": [
+          "Metadata"
+        ],
+        "operationId": "GET_api/odata",
+        "responses": {
+          "200": {
+            "description": "The service document for the service"
+          }
+        }
+      }
+    },
     "/api/Report/DownloadByKey({key})": {
       "get": {
         "tags": [

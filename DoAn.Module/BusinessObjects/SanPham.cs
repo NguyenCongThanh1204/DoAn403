@@ -116,5 +116,5 @@ namespace DoAn.Module.BusinessObjects
         {
             get { return GetCollection<DongNhap>(nameof(DongNhaps)); }
         }
-    }
+    } 
 }
