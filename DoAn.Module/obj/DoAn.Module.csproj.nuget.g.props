@@ -5,21 +5,21 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\ASUS\.nuget\packages\;E:\phanviet\Components\Offline Packages;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\THANH\.nuget\packages\;C:\Program Files\DevExpress 24.1\Components\Offline Packages;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.12.1</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.10.2</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="C:\Users\ASUS\.nuget\packages\" />
-    <SourceRoot Include="E:\phanviet\Components\Offline Packages\" />
-    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+    <SourceRoot Include="C:\Users\THANH\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files\DevExpress 24.1\Components\Offline Packages\" />
+    <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\ASUS\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4</PkgMicrosoft_CodeAnalysis_Analyzers>
-    <PkgDevExpress_Data Condition=" '$(PkgDevExpress_Data)' == '' ">E:\phanviet\Components\Offline Packages\devexpress.data\24.1.7</PkgDevExpress_Data>
-    <PkgDevExpress_Xpo Condition=" '$(PkgDevExpress_Xpo)' == '' ">E:\phanviet\Components\Offline Packages\devexpress.xpo\24.1.7</PkgDevExpress_Xpo>
-    <PkgDevExpress_DataAccess Condition=" '$(PkgDevExpress_DataAccess)' == '' ">E:\phanviet\Components\Offline Packages\devexpress.dataaccess\24.1.7</PkgDevExpress_DataAccess>
-    <PkgDevExpress_ExpressApp Condition=" '$(PkgDevExpress_ExpressApp)' == '' ">E:\phanviet\Components\Offline Packages\devexpress.expressapp\24.1.7</PkgDevExpress_ExpressApp>
-    <PkgDevExpress_ExpressApp_CodeAnalysis Condition=" '$(PkgDevExpress_ExpressApp_CodeAnalysis)' == '' ">E:\phanviet\Components\Offline Packages\devexpress.expressapp.codeanalysis\24.1.7</PkgDevExpress_ExpressApp_CodeAnalysis>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\THANH\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgDevExpress_Data Condition=" '$(PkgDevExpress_Data)' == '' ">C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.data\24.1.4</PkgDevExpress_Data>
+    <PkgDevExpress_Xpo Condition=" '$(PkgDevExpress_Xpo)' == '' ">C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.xpo\24.1.4</PkgDevExpress_Xpo>
+    <PkgDevExpress_DataAccess Condition=" '$(PkgDevExpress_DataAccess)' == '' ">C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.dataaccess\24.1.4</PkgDevExpress_DataAccess>
+    <PkgDevExpress_ExpressApp Condition=" '$(PkgDevExpress_ExpressApp)' == '' ">C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.expressapp\24.1.4</PkgDevExpress_ExpressApp>
+    <PkgDevExpress_ExpressApp_CodeAnalysis Condition=" '$(PkgDevExpress_ExpressApp_CodeAnalysis)' == '' ">C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.expressapp.codeanalysis\24.1.4</PkgDevExpress_ExpressApp_CodeAnalysis>
   </PropertyGroup>
 </Project>
