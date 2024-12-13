@@ -13,6 +13,8 @@ using DevExpress.ExpressApp.Model.DomainLogics;
 using DevExpress.ExpressApp.Model.NodeGenerators;
 using DevExpress.Xpo;
 using DevExpress.ExpressApp.Xpo;
+using DevExpress.ExpressApp.ReportsV2;
+using DoAn.Module.BusinessObjects;
 
 namespace DoAn.Module;
 
@@ -40,7 +42,12 @@ public sealed class DoAnModule : ModuleBase {
     }
     public override IEnumerable<ModuleUpdater> GetModuleUpdaters(IObjectSpace objectSpace, Version versionFromDB) {
         ModuleUpdater updater = new DatabaseUpdate.Updater(objectSpace, versionFromDB);
-        return new ModuleUpdater[] { updater };
+        PredefinedReportsUpdater predefinedReportsUpdater = new(Application, objectSpace, versionFromDB)
+        {
+            UseMultipleUpdaters = true
+        };
+        predefinedReportsUpdater.AddPredefinedReport<PhieunhapRpt>("pnhap", typeof(PhieuNhap));
+        return new ModuleUpdater[] { updater, predefinedReportsUpdater };
     }
     public override void Setup(XafApplication application) {
         base.Setup(application);

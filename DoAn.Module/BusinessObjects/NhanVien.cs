@@ -49,6 +49,13 @@ namespace DoAn.Module.BusinessObjects
             get { return GetCollection<PhieuThu>(nameof(PhieuThus)); }
         }
 
+        [DevExpress.Xpo.Aggregated, Association("kt-nhap")]
+        [XafDisplayName("Phiếu nhập")]
+        public XPCollection<PhieuNhap> PhieuNhaps
+        {
+            get { return GetCollection<PhieuNhap>(nameof(PhieuNhaps)); }
+        }
+
 
         private string _TaiKhoan;
         [XafDisplayName("Tài khoản"),Size(12)]

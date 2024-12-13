@@ -110,15 +110,11 @@ namespace DoAn.Module.BusinessObjects
             set { SetPropertyValue<string>(nameof(Ghichu), ref _Ghichu, value); }
         }
 
-
-
-
-
-
-
-
-
-
-
-    }
+        [DevExpress.Xpo.Aggregated, Association]
+        [XafDisplayName("Nhập")]
+        public XPCollection<DongNhap> DongNhaps
+        {
+            get { return GetCollection<DongNhap>(nameof(DongNhaps)); }
+        }
+    } 
 }

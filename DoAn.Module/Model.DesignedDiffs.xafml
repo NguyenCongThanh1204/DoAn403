@@ -13,6 +13,7 @@
       </Item>
       <Item Id="@13d9b869-8ebc-492c-a867-05de78dfc7aa" Caption="Chứng từ" Index="2" IsNewNode="True">
         <Items IsNewNode="True">
+          <Item Id="PhieuNhap_ListView" ViewId="PhieuNhap_ListView" ObjectKey="" Index="0" IsNewNode="True" />
           <Item Id="PhieuThu_ListView" ViewId="PhieuThu_ListView" ObjectKey="" Index="0" IsNewNode="True" />
           <Item Id="PhieuChi_ListView" ViewId="PhieuChi_ListView" ObjectKey="" Index="1" IsNewNode="True" />
         </Items>
@@ -22,6 +23,7 @@
           <Item Id="KhachHang_ListView" Removed="True" />
           <Item Id="NhomKhach_ListView" Removed="True" />
           <Item Id="PhieuChi_ListView" Removed="True" />
+          <Item Id="PhieuNhap_ListView" Removed="True" />
           <Item Id="PhieuThu_ListView" Removed="True" />
         </Items>
       </Item>
@@ -31,8 +33,8 @@
     <LayoutManagerOptions RequiredFieldMark="*" />
   </Options>
   <SchemaModules>
-    <SchemaModule Name="CloneObjectModule" Version="24.1.4.0" IsNewNode="True" />
-    <SchemaModule Name="SystemModule" Version="24.1.4.0" IsNewNode="True" />
+    <SchemaModule Name="CloneObjectModule" Version="24.1.7.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="24.1.7.0" IsNewNode="True" />
   </SchemaModules>
   <Views>
     <ListView Id="ApplicationUser_ListView" Caption="Users" />
@@ -79,6 +81,45 @@
         </LayoutGroup>
       </Layout>
     </DetailView>
+    <DetailView Id="PhieuNhap_DetailView">
+      <Items>
+        <PropertyEditor Id="Ketoan" PropertyName="Ketoan" IsNewNode="True" />
+        <PropertyEditor Id="Khach" PropertyName="Khach" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="52.40793201133145">
+            <LayoutGroup Id="PhieuNhap" RelativeSize="100">
+              <LayoutGroup Id="PhieuNhap_col1" RelativeSize="50">
+                <LayoutItem Id="SoCT" RelativeSize="27.941176470588236" />
+                <LayoutItem Id="NgayCT" RelativeSize="22.058823529411764" />
+                <LayoutItem Id="SoHD" RelativeSize="22.058823529411764" />
+                <LayoutItem Id="NgayHD" RelativeSize="27.941176470588236" />
+              </LayoutGroup>
+              <LayoutGroup Id="PhieuNhap_col2" RelativeSize="50">
+                <LayoutItem Id="SoTien" RelativeSize="27.941176470588236" />
+                <LayoutItem Id="ghichu" RelativeSize="22.058823529411764" />
+                <LayoutItem Id="Tongtien" RelativeSize="22.058823529411764" />
+                <LayoutItem Id="Ketoan" ViewItem="Ketoan" Index="3" RelativeSize="27.941176470588236" IsNewNode="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutItem Id="Khach" ViewItem="Khach" Index="1" RelativeSize="8.498583569405099" IsNewNode="True" />
+          <LayoutGroup Id="DongNhaps_Group" Direction="Vertical" Index="2" RelativeSize="39.093484419263454">
+            <LayoutItem Id="DongNhaps" RelativeSize="100" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="PhieuNhap_ListView" IsFooterVisible="True">
+      <Columns>
+        <ColumnInfo Id="Tongtien">
+          <Summary>
+            <ColumnSummaryItem Id="Summary0" SummaryType="Sum" IsNewNode="True" />
+          </Summary>
+        </ColumnInfo>
+      </Columns>
+    </ListView>
     <DetailView Id="PhieuThu_DetailView">
       <Items>
         <PropertyEditor Id="Ketoan" PropertyName="Ketoan" IsNewNode="True" />
