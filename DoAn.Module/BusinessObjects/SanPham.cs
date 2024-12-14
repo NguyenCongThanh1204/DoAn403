@@ -116,5 +116,12 @@ namespace DoAn.Module.BusinessObjects
         {
             get { return GetCollection<DongNhap>(nameof(DongNhaps)); }
         }
+
+        [DevExpress.Xpo.Aggregated, Association]
+        [XafDisplayName("Xuất")]
+        public XPCollection<Dongxuat> Dongxuats
+        {
+            get { return GetCollection<Dongxuat>(nameof(Dongxuats)); }
+        }
     } 
 }

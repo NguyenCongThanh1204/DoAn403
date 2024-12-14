@@ -5,5 +5,8 @@
     <Compile Update="BusinessObjects\PhieunhapRpt.cs">
       <SubType>XtraReport</SubType>
     </Compile>
+    <Compile Update="BusinessObjects\PhieuXuatRpt.cs">
+      <SubType>XtraReport</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

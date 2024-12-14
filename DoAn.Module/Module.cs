@@ -15,6 +15,7 @@ using DevExpress.Xpo;
 using DevExpress.ExpressApp.Xpo;
 using DevExpress.ExpressApp.ReportsV2;
 using DoAn.Module.BusinessObjects;
+using DevExpress.ExpressApp.Security.ClientServer;
 
 namespace DoAn.Module;
 
@@ -52,7 +53,16 @@ public sealed class DoAnModule : ModuleBase {
     public override void Setup(XafApplication application) {
         base.Setup(application);
         // Manage various aspects of the application UI and behavior at the module level.
+        application.LoggedOn += new EventHandler<LogonEventArgs>(Application_LoggedOn);
     }
+
+    private void Application_LoggedOn(object sender, LogonEventArgs e)
+    {
+        XafApplication app = (XafApplication)sender;
+        IObjectSpaceProvider objectSpaceProvider = app.ObjectSpaceProviders[0];
+        ((SecuredObjectSpaceProvider)objectSpaceProvider).AllowICommandChannelDoWithSecurityContext = true;
+    }
+
     public override void CustomizeTypesInfo(ITypesInfo typesInfo) {
         base.CustomizeTypesInfo(typesInfo);
         CalculatedPersistentAliasHelper.CustomizeTypesInfo(typesInfo);
