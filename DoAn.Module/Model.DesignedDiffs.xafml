@@ -11,11 +11,12 @@
           <Item Id="KhachHang_ListView" ViewId="KhachHang_ListView" ObjectKey="" Index="1" IsNewNode="True" />
         </Items>
       </Item>
-      <Item Id="@13d9b869-8ebc-492c-a867-05de78dfc7aa" Caption="Chứng từ" Index="2" IsNewNode="True">
+      <Item Id="chung tu" Caption="Chứng từ" Index="2" IsNewNode="True">
         <Items IsNewNode="True">
           <Item Id="PhieuNhap_ListView" ViewId="PhieuNhap_ListView" ObjectKey="" Index="0" IsNewNode="True" />
           <Item Id="PhieuThu_ListView" ViewId="PhieuThu_ListView" ObjectKey="" Index="0" IsNewNode="True" />
           <Item Id="PhieuChi_ListView" ViewId="PhieuChi_ListView" ObjectKey="" Index="1" IsNewNode="True" />
+          <Item Id="DoanhthuRpt_ListView" ViewId="DoanhthuRpt_ListView" ObjectKey="" IsNewNode="True" />
           <Item Id="phieuxuat_ListView" ViewId="phieuxuat_ListView" ObjectKey="" IsNewNode="True" />
         </Items>
       </Item>
@@ -29,6 +30,11 @@
           <Item Id="phieuxuat_ListView" Removed="True" />
         </Items>
       </Item>
+      <Item Id="chungtu" Removed="True">
+        <Items>
+          <Item Id="DoanhthuRpt_ListView" Removed="True" />
+        </Items>
+      </Item>
     </Items>
   </NavigationItems>
   <Options>
@@ -40,6 +46,34 @@
   </SchemaModules>
   <Views>
     <ListView Id="ApplicationUser_ListView" Caption="Users" />
+    <ListView Id="DoanhthuRpt_ListView" IsGroupPanelVisible="False" GroupSummary="Count;Soluong:Sum,(Số lượng: SUM={0:0.##});Doanhthu:Sum,(Doanh thu: SUM={0:0.##});Giavon:Sum,(Giá vốn: SUM={0:0.##});Laigop:Sum,(Lãi gộp: SUM={0:0.##})" AutoExpandAllGroups="True" IsFooterVisible="True">
+      <Columns>
+        <ColumnInfo Id="MaSP" Index="0" SortOrder="Ascending" GroupIndex="1" />
+        <ColumnInfo Id="TenSP" SortIndex="0" SortOrder="Ascending" Index="1" />
+        <ColumnInfo Id="Dvt" Index="2" />
+        <ColumnInfo Id="Nhom" SortOrder="Ascending" GroupIndex="0" Index="3" />
+        <ColumnInfo Id="Soluong">
+          <Summary>
+            <ColumnSummaryItem Id="Summary0" SummaryType="Sum" IsNewNode="True" />
+          </Summary>
+        </ColumnInfo>
+        <ColumnInfo Id="Doanhthu">
+          <Summary>
+            <ColumnSummaryItem Id="Summary0" SummaryType="Sum" IsNewNode="True" />
+          </Summary>
+        </ColumnInfo>
+        <ColumnInfo Id="Giavon">
+          <Summary>
+            <ColumnSummaryItem Id="Summary0" SummaryType="Sum" IsNewNode="True" />
+          </Summary>
+        </ColumnInfo>
+        <ColumnInfo Id="Laigop">
+          <Summary>
+            <ColumnSummaryItem Id="Summary0" SummaryType="Sum" IsNewNode="True" />
+          </Summary>
+        </ColumnInfo>
+      </Columns>
+    </ListView>
     <DetailView Id="KhachHang_DetailView">
       <Items>
         <PropertyEditor Id="Nhom" PropertyName="Nhom" IsNewNode="True" />
@@ -158,7 +192,6 @@
                 <LayoutItem Id="NgayHD" RelativeSize="28.571428571428573" />
               </LayoutGroup>
               <LayoutGroup Id="phieuxuat_col2" RelativeSize="68.54990583804143">
-                <LayoutItem Id="SoTien" RelativeSize="28.571428571428573" />
                 <LayoutItem Id="ghichu" RelativeSize="21.428571428571427" />
                 <LayoutItem Id="Tongtien" RelativeSize="21.428571428571427" />
                 <LayoutItem Id="Ketoan" ViewItem="Ketoan" Index="3" RelativeSize="28.571428571428573" IsNewNode="True" />

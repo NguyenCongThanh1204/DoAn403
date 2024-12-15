@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\DoAn403W\\DoAn403\\DoAn.Blazor.Server\\DoAn.Blazor.Server.csproj": {}
+    "E:\\GithupVd6\\DoAn403\\DoAn.Blazor.Server\\DoAn.Blazor.Server.csproj": {}
   },
   "projects": {
-    "E:\\DoAn403W\\DoAn403\\DoAn.Blazor.Server\\DoAn.Blazor.Server.csproj": {
+    "E:\\GithupVd6\\DoAn403\\DoAn.Blazor.Server\\DoAn.Blazor.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DoAn403W\\DoAn403\\DoAn.Blazor.Server\\DoAn.Blazor.Server.csproj",
+        "projectUniqueName": "E:\\GithupVd6\\DoAn403\\DoAn.Blazor.Server\\DoAn.Blazor.Server.csproj",
         "projectName": "DoAn.Blazor.Server",
-        "projectPath": "E:\\DoAn403W\\DoAn403\\DoAn.Blazor.Server\\DoAn.Blazor.Server.csproj",
-        "packagesPath": "C:\\Users\\Family User\\.nuget\\packages\\",
-        "outputPath": "E:\\DoAn403W\\DoAn403\\DoAn.Blazor.Server\\obj\\",
+        "projectPath": "E:\\GithupVd6\\DoAn403\\DoAn.Blazor.Server\\DoAn.Blazor.Server.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "E:\\GithupVd6\\DoAn403\\DoAn.Blazor.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
+          "E:\\phanviet\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Family User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -28,16 +28,16 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
+          "E:\\phanviet\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\DoAn403W\\DoAn403\\DoAn.Module\\DoAn.Module.csproj": {
-                "projectPath": "E:\\DoAn403W\\DoAn403\\DoAn.Module\\DoAn.Module.csproj"
+              "E:\\GithupVd6\\DoAn403\\DoAn.Module\\DoAn.Module.csproj": {
+                "projectPath": "E:\\GithupVd6\\DoAn403\\DoAn.Module\\DoAn.Module.csproj"
               }
             }
           }
@@ -50,7 +50,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -138,25 +138,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\DoAn403W\\DoAn403\\DoAn.Module\\DoAn.Module.csproj": {
+    "E:\\GithupVd6\\DoAn403\\DoAn.Module\\DoAn.Module.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DoAn403W\\DoAn403\\DoAn.Module\\DoAn.Module.csproj",
+        "projectUniqueName": "E:\\GithupVd6\\DoAn403\\DoAn.Module\\DoAn.Module.csproj",
         "projectName": "DoAn.Module",
-        "projectPath": "E:\\DoAn403W\\DoAn403\\DoAn.Module\\DoAn.Module.csproj",
-        "packagesPath": "C:\\Users\\Family User\\.nuget\\packages\\",
-        "outputPath": "E:\\DoAn403W\\DoAn403\\DoAn.Module\\obj\\",
+        "projectPath": "E:\\GithupVd6\\DoAn403\\DoAn.Module\\DoAn.Module.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "E:\\GithupVd6\\DoAn403\\DoAn.Module\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
+          "E:\\phanviet\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Family User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -166,8 +166,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
+          "E:\\phanviet\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -184,7 +184,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -277,7 +277,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

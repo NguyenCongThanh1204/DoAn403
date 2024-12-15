@@ -73,7 +73,7 @@ namespace DoAn.Module.BusinessObjects
 
         private DateTime _NgayCT;
         [XafDisplayName("Ngày CT")]
-        [ModelDefault("EditMák", "dd/MM/yyyy HH:mm")]
+        [ModelDefault("EditMask", "dd/MM/yyyy HH:mm")]
         [ModelDefault("DisplayFormat", "{0:dd/MM/yyyy HH:mm}")]
         public DateTime NgayCT
         {

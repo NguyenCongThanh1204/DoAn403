@@ -1,19 +1,19 @@
 {
   "Files": [
     {
-      "Id": "E:\\DoAn403W\\DoAn403\\DoAn.Blazor.Server\\wwwroot\\css\\site.css",
+      "Id": "E:\\GithupVd6\\DoAn403\\DoAn.Blazor.Server\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\DoAn403W\\DoAn403\\DoAn.Blazor.Server\\wwwroot\\favicon.ico",
+      "Id": "E:\\GithupVd6\\DoAn403\\DoAn.Blazor.Server\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\DoAn403W\\DoAn403\\DoAn.Blazor.Server\\wwwroot\\images\\Logo.svg",
+      "Id": "E:\\GithupVd6\\DoAn403\\DoAn.Blazor.Server\\wwwroot\\images\\Logo.svg",
       "PackagePath": "staticwebassets\\images\\Logo.svg"
     },
     {
-      "Id": "E:\\DoAn403W\\DoAn403\\DoAn.Blazor.Server\\wwwroot\\images\\SplashScreen.svg",
+      "Id": "E:\\GithupVd6\\DoAn403\\DoAn.Blazor.Server\\wwwroot\\images\\SplashScreen.svg",
       "PackagePath": "staticwebassets\\images\\SplashScreen.svg"
     },
     {

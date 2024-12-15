@@ -16,6 +16,7 @@ using DevExpress.ExpressApp.Xpo;
 using DevExpress.ExpressApp.ReportsV2;
 using DoAn.Module.BusinessObjects;
 using DevExpress.ExpressApp.Security.ClientServer;
+using DevExpress.XtraSpreadsheet.Model;
 
 namespace DoAn.Module;
 
@@ -54,9 +55,34 @@ public sealed class DoAnModule : ModuleBase {
         base.Setup(application);
         // Manage various aspects of the application UI and behavior at the module level.
         application.LoggedOn += new EventHandler<LogonEventArgs>(Application_LoggedOn);
+		application.SetupComplete += Application_SetupComplete;
     }
 
-    private void Application_LoggedOn(object sender, LogonEventArgs e)
+	private void Application_SetupComplete(object sender, EventArgs e)
+	{
+		Application.ObjectSpaceCreated += Application_ObjectSpaceCreated; ;
+	}
+
+	private void Application_ObjectSpaceCreated(object sender, ObjectSpaceCreatedEventArgs e)
+	{
+		if(e.ObjectSpace is NonPersistentObjectSpace nonPersistentObjectSpace)
+        {
+            IObjectSpace additionalObjectSpace = Application.CreateObjectSpace(typeof(ApplicationUser));
+            nonPersistentObjectSpace.AdditionalObjectSpaces.Add(additionalObjectSpace);
+			nonPersistentObjectSpace.ObjectsGetting += NonPersistentObjectSpace_ObjectsGetting;
+        }    
+	}
+
+    private void NonPersistentObjectSpace_ObjectsGetting(object sender, ObjectsGettingEventArgs e)
+    {
+        NonPersistentObjectSpace obs = (NonPersistentObjectSpace)sender;
+        XPObjectSpace objectSpace = (XPObjectSpace)obs.AdditionalObjectSpaces[0];
+        if (e.ObjectType == typeof(DoanhthuRpt))
+        {
+            e.Objects = Chung.GetDoanhThu(objectSpace);
+        }
+    }
+	private void Application_LoggedOn(object sender, LogonEventArgs e)
     {
         XafApplication app = (XafApplication)sender;
         IObjectSpaceProvider objectSpaceProvider = app.ObjectSpaceProviders[0];
