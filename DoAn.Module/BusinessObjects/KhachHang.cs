@@ -6,6 +6,7 @@ using DevExpress.Persistent.Base;
 using DevExpress.Persistent.BaseImpl;
 using DevExpress.Persistent.Validation;
 using DevExpress.Xpo;
+using DevExpress.XtraSpreadsheet.Import.OpenXml;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -65,6 +66,13 @@ namespace DoAn.Module.BusinessObjects
         public XPCollection<PhieuNhap> PhieuNhaps
         {
             get { return GetCollection<PhieuNhap>(nameof(PhieuNhaps)); }
+        }
+
+        [DevExpress.Xpo.Aggregated, Association("khach-xuat")]
+        [XafDisplayName("Phiếu xuất")]
+        public XPCollection<phieuxuat> PhieuXuats
+        {
+            get { return GetCollection<phieuxuat>(nameof(PhieuXuats)); }
         }
 
         private string _TenKH;

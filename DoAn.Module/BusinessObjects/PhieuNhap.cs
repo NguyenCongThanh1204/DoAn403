@@ -35,6 +35,7 @@ namespace DoAn.Module.BusinessObjects
             if (Session.IsNewObject(this))
             {
                 NgayCT = DateTime.Now;
+                SoCT = GetSoCT().ToString();
             }
             // Place your initialization code here (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112834.aspx).
         }
@@ -137,6 +138,17 @@ namespace DoAn.Module.BusinessObjects
                 tong += dong.Thanhtien;
             }    
             Tongtien = tong;
+        }
+        private int GetSoCT()
+        {
+            string sql = @"SELECT MAX(CAST(SoCT AS INT)) AS MaxSoCT
+            FROM Phieunhap
+            WHERE isnumeric(sOct) = 1 AND GCRecord is null;";
+            int so = 1;
+            var ret=Session.ExecuteScalar(sql);
+            if(ret!=null)
+                so = Convert.ToInt32(ret)+1;
+            return so;
         }
 
     }

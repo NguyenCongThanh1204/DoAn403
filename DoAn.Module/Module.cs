@@ -13,6 +13,10 @@ using DevExpress.ExpressApp.Model.DomainLogics;
 using DevExpress.ExpressApp.Model.NodeGenerators;
 using DevExpress.Xpo;
 using DevExpress.ExpressApp.Xpo;
+using DevExpress.ExpressApp.ReportsV2;
+using DoAn.Module.BusinessObjects;
+using DevExpress.ExpressApp.Security.ClientServer;
+using DevExpress.XtraSpreadsheet.Model;
 
 namespace DoAn.Module;
 
@@ -40,12 +44,51 @@ public sealed class DoAnModule : ModuleBase {
     }
     public override IEnumerable<ModuleUpdater> GetModuleUpdaters(IObjectSpace objectSpace, Version versionFromDB) {
         ModuleUpdater updater = new DatabaseUpdate.Updater(objectSpace, versionFromDB);
-        return new ModuleUpdater[] { updater };
+        PredefinedReportsUpdater predefinedReportsUpdater = new(Application, objectSpace, versionFromDB)
+        {
+            UseMultipleUpdaters = true
+        };
+        predefinedReportsUpdater.AddPredefinedReport<PhieunhapRpt>("pnhap", typeof(PhieuNhap));
+        return new ModuleUpdater[] { updater, predefinedReportsUpdater };
     }
     public override void Setup(XafApplication application) {
         base.Setup(application);
         // Manage various aspects of the application UI and behavior at the module level.
+        application.LoggedOn += new EventHandler<LogonEventArgs>(Application_LoggedOn);
+		application.SetupComplete += Application_SetupComplete;
     }
+
+	private void Application_SetupComplete(object sender, EventArgs e)
+	{
+		Application.ObjectSpaceCreated += Application_ObjectSpaceCreated; ;
+	}
+
+	private void Application_ObjectSpaceCreated(object sender, ObjectSpaceCreatedEventArgs e)
+	{
+		if(e.ObjectSpace is NonPersistentObjectSpace nonPersistentObjectSpace)
+        {
+            IObjectSpace additionalObjectSpace = Application.CreateObjectSpace(typeof(ApplicationUser));
+            nonPersistentObjectSpace.AdditionalObjectSpaces.Add(additionalObjectSpace);
+			nonPersistentObjectSpace.ObjectsGetting += NonPersistentObjectSpace_ObjectsGetting;
+        }    
+	}
+
+    private void NonPersistentObjectSpace_ObjectsGetting(object sender, ObjectsGettingEventArgs e)
+    {
+        NonPersistentObjectSpace obs = (NonPersistentObjectSpace)sender;
+        XPObjectSpace objectSpace = (XPObjectSpace)obs.AdditionalObjectSpaces[0];
+        if (e.ObjectType == typeof(DoanhthuRpt))
+        {
+            e.Objects = Chung.GetDoanhThu(objectSpace);
+        }
+    }
+	private void Application_LoggedOn(object sender, LogonEventArgs e)
+    {
+        XafApplication app = (XafApplication)sender;
+        IObjectSpaceProvider objectSpaceProvider = app.ObjectSpaceProviders[0];
+        ((SecuredObjectSpaceProvider)objectSpaceProvider).AllowICommandChannelDoWithSecurityContext = true;
+    }
+
     public override void CustomizeTypesInfo(ITypesInfo typesInfo) {
         base.CustomizeTypesInfo(typesInfo);
         CalculatedPersistentAliasHelper.CustomizeTypesInfo(typesInfo);

@@ -9,6 +9,8 @@ using DevExpress.ExpressApp.Model.Core;
 using DevExpress.ExpressApp.Model.DomainLogics;
 using DevExpress.ExpressApp.Model.NodeGenerators;
 using DevExpress.Persistent.BaseImpl;
+using System.Drawing.Text;
+using DevExpress.ExpressApp.Security.ClientServer;
 
 namespace DoAn.Blazor.Server;
 
@@ -34,5 +36,16 @@ public sealed class DoAnBlazorModule : ModuleBase {
         // For more information, refer to the following topic: https://docs.devexpress.com/eXpressAppFramework/113698/
         //application.CreateCustomModelDifferenceStore += Application_CreateCustomModelDifferenceStore;
         application.CreateCustomUserModelDifferenceStore += Application_CreateCustomUserModelDifferenceStore;
+        application.LoggedOn += Application_looggedOn;
     }
+    private void Application_looggedOn(object sender, LogonEventArgs E)
+    {
+        XafApplication app = (XafApplication)sender;
+        if (app == null)
+        {
+            IObjectSpaceProvider objectSpaceProvider = app.ObjectSpaceProviders[0];
+            ((SecuredObjectSpaceProvider)objectSpaceProvider).AllowICommandChannelDoWithSecurityContext = true;
+        }
+    }
+    
 }
