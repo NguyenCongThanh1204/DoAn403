@@ -18,6 +18,7 @@ using DevExpress.ExpressApp.WebApi.Services;
 using DoAn.WebApi.JWT;
 using DevExpress.ExpressApp.Security.Authentication;
 using DevExpress.ExpressApp.Security.Authentication.ClientServer;
+using DoAn.Module.BusinessObjects;
 
 namespace DoAn.Blazor.Server;
 
@@ -67,11 +68,11 @@ public class Startup {
                     options.AllowValidationDetailsAccess = false;
                 })
                 .Add<DoAn.Module.DoAnModule>()
-            	.Add<DoAnBlazorModule>();
+                .Add<DoAnBlazorModule>();
             builder.ObjectSpaceProviders
                 .AddSecuredXpo((serviceProvider, options) => {
                     string connectionString = null;
-                    if(Configuration.GetConnectionString("ConnectionString") != null) {
+                    if (Configuration.GetConnectionString("ConnectionString") != null) {
                         connectionString = Configuration.GetConnectionString("ConnectionString");
                     }
 #if EASYTEST
@@ -134,11 +135,19 @@ public class Startup {
                     .RequireXafAuthentication()
                     .Build();
         });
-
+        services
+            .AddXafWebApi(Configuration, options =>
+            {
+                options.BusinessObject<SanPham>();
+                options.BusinessObject<KhachHang>();
+            })
+            .AddXpoServices();
+            
         services
             .AddControllers()
             .AddOData((options, serviceProvider) => {
                 options
+
                     .AddRouteComponents("api/odata", new EdmModelBuilder(serviceProvider).GetEdmModel())
                     .EnableQueryFeatures(100);
             });

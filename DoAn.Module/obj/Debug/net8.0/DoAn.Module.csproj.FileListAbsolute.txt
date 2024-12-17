@@ -73,3 +73,6 @@ E:\GithupVd6\DoAn403\DoAn.Module\obj\Debug\net8.0\DoAn.Module.dll
 E:\GithupVd6\DoAn403\DoAn.Module\obj\Debug\net8.0\refint\DoAn.Module.dll
 E:\GithupVd6\DoAn403\DoAn.Module\obj\Debug\net8.0\DoAn.Module.pdb
 E:\GithupVd6\DoAn403\DoAn.Module\obj\Debug\net8.0\ref\DoAn.Module.dll
+D:\Git\doAN\DoAn403\DoAn.Module\obj\Debug\net8.0\DoAn.Module.BusinessObjects.PhieunhapRpt.resources
+D:\Git\doAN\DoAn403\DoAn.Module\obj\Debug\net8.0\DoAn.Module.BusinessObjects.PhieuXuatRpt.resources
+D:\Git\doAN\DoAn403\DoAn.Module\obj\Debug\net8.0\DoAn.Module.csproj.GenerateResource.cache

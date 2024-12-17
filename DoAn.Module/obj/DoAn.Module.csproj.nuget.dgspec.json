@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GithupVd6\\DoAn403\\DoAn.Module\\DoAn.Module.csproj": {}
+    "D:\\Git\\doAN\\DoAn403\\DoAn.Module\\DoAn.Module.csproj": {}
   },
   "projects": {
-    "E:\\GithupVd6\\DoAn403\\DoAn.Module\\DoAn.Module.csproj": {
+    "D:\\Git\\doAN\\DoAn403\\DoAn.Module\\DoAn.Module.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GithupVd6\\DoAn403\\DoAn.Module\\DoAn.Module.csproj",
+        "projectUniqueName": "D:\\Git\\doAN\\DoAn403\\DoAn.Module\\DoAn.Module.csproj",
         "projectName": "DoAn.Module",
-        "projectPath": "E:\\GithupVd6\\DoAn403\\DoAn.Module\\DoAn.Module.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\GithupVd6\\DoAn403\\DoAn.Module\\obj\\",
+        "projectPath": "D:\\Git\\doAN\\DoAn403\\DoAn.Module\\DoAn.Module.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\Git\\doAN\\DoAn403\\DoAn.Module\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\phanviet\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -28,8 +28,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "E:\\phanviet\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

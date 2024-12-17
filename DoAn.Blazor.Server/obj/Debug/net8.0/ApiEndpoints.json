@@ -190,6 +190,2418 @@
     "EndpointName": "api/odata/$metadata"
   },
   {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/KhachHang",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Linq.IQueryable\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/KhachHang"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Post",
+    "RelativePath": "api/odata/KhachHang",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/KhachHang",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Linq.IQueryable\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/KhachHang"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Post",
+    "RelativePath": "api/odata/KhachHang",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/KhachHang({key})",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DoAn.Module.BusinessObjects.KhachHang",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/KhachHang({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Patch",
+    "RelativePath": "api/odata/KhachHang({key})",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "patch",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Put",
+    "RelativePath": "api/odata/KhachHang({key})",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "delta",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Delete",
+    "RelativePath": "api/odata/KhachHang({key})",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/KhachHang({key})",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DoAn.Module.BusinessObjects.KhachHang",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/KhachHang({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Patch",
+    "RelativePath": "api/odata/KhachHang({key})",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "patch",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Put",
+    "RelativePath": "api/odata/KhachHang({key})",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "delta",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Delete",
+    "RelativePath": "api/odata/KhachHang({key})",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/KhachHang({key})/{navigationProperty}({relatedKey})/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang({key})/{navigationProperty}({relatedKey})/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/KhachHang({key})/{navigationProperty}({relatedKey})/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang({key})/{navigationProperty}({relatedKey})/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/KhachHang({key})/{navigationProperty}/{relatedKey}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang({key})/{navigationProperty}/{relatedKey}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/KhachHang({key})/{navigationProperty}/{relatedKey}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang({key})/{navigationProperty}/{relatedKey}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "GetRef",
+    "RelativePath": "api/odata/KhachHang({key})/{navigationProperty}/$ref",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/KhachHang({key})/{navigationProperty}/$ref",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/KhachHang({key})/{navigationProperty}/$ref",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/KhachHang({key})/{navigationProperty}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "GetRef",
+    "RelativePath": "api/odata/KhachHang({key})/{navigationProperty}/$ref",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/KhachHang({key})/{navigationProperty}/$ref",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/KhachHang({key})/{navigationProperty}/$ref",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/KhachHang({key})/{navigationProperty}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/KhachHang/{key}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DoAn.Module.BusinessObjects.KhachHang",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/KhachHang/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Patch",
+    "RelativePath": "api/odata/KhachHang/{key}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "patch",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Put",
+    "RelativePath": "api/odata/KhachHang/{key}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "delta",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Delete",
+    "RelativePath": "api/odata/KhachHang/{key}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/KhachHang/{key}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DoAn.Module.BusinessObjects.KhachHang",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/KhachHang/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Patch",
+    "RelativePath": "api/odata/KhachHang/{key}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "patch",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Put",
+    "RelativePath": "api/odata/KhachHang/{key}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "delta",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Delete",
+    "RelativePath": "api/odata/KhachHang/{key}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/KhachHang/{key}/{navigationProperty}({relatedKey})/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang/{key}/{navigationProperty}({relatedKey})/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/KhachHang/{key}/{navigationProperty}({relatedKey})/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang/{key}/{navigationProperty}({relatedKey})/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/KhachHang/{key}/{navigationProperty}/{relatedKey}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang/{key}/{navigationProperty}/{relatedKey}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/KhachHang/{key}/{navigationProperty}/{relatedKey}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang/{key}/{navigationProperty}/{relatedKey}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "GetRef",
+    "RelativePath": "api/odata/KhachHang/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/KhachHang/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/KhachHang/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/KhachHang/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "GetRef",
+    "RelativePath": "api/odata/KhachHang/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/KhachHang/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/KhachHang/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/KhachHang/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/KhachHang/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/KhachHang/$count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Linq.IQueryable\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/KhachHang/$count"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/KhachHang/$count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Linq.IQueryable\u00601[[DoAn.Module.BusinessObjects.KhachHang, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/KhachHang/$count"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/SanPham",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Linq.IQueryable\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/SanPham"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Post",
+    "RelativePath": "api/odata/SanPham",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/SanPham",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Linq.IQueryable\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/SanPham"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Post",
+    "RelativePath": "api/odata/SanPham",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/SanPham({key})",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DoAn.Module.BusinessObjects.SanPham",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/SanPham({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Patch",
+    "RelativePath": "api/odata/SanPham({key})",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "patch",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Put",
+    "RelativePath": "api/odata/SanPham({key})",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "delta",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Delete",
+    "RelativePath": "api/odata/SanPham({key})",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/SanPham({key})",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DoAn.Module.BusinessObjects.SanPham",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/SanPham({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Patch",
+    "RelativePath": "api/odata/SanPham({key})",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "patch",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Put",
+    "RelativePath": "api/odata/SanPham({key})",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "delta",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Delete",
+    "RelativePath": "api/odata/SanPham({key})",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/SanPham({key})/{navigationProperty}({relatedKey})/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham({key})/{navigationProperty}({relatedKey})/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/SanPham({key})/{navigationProperty}({relatedKey})/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham({key})/{navigationProperty}({relatedKey})/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/SanPham({key})/{navigationProperty}/{relatedKey}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham({key})/{navigationProperty}/{relatedKey}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/SanPham({key})/{navigationProperty}/{relatedKey}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham({key})/{navigationProperty}/{relatedKey}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "GetRef",
+    "RelativePath": "api/odata/SanPham({key})/{navigationProperty}/$ref",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/SanPham({key})/{navigationProperty}/$ref",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/SanPham({key})/{navigationProperty}/$ref",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/SanPham({key})/{navigationProperty}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "GetRef",
+    "RelativePath": "api/odata/SanPham({key})/{navigationProperty}/$ref",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/SanPham({key})/{navigationProperty}/$ref",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/SanPham({key})/{navigationProperty}/$ref",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/SanPham({key})/{navigationProperty}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/SanPham/{key}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DoAn.Module.BusinessObjects.SanPham",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/SanPham/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Patch",
+    "RelativePath": "api/odata/SanPham/{key}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "patch",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Put",
+    "RelativePath": "api/odata/SanPham/{key}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "delta",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Delete",
+    "RelativePath": "api/odata/SanPham/{key}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/SanPham/{key}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DoAn.Module.BusinessObjects.SanPham",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/SanPham/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Patch",
+    "RelativePath": "api/odata/SanPham/{key}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "patch",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Put",
+    "RelativePath": "api/odata/SanPham/{key}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "delta",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Delete",
+    "RelativePath": "api/odata/SanPham/{key}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/SanPham/{key}/{navigationProperty}({relatedKey})/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham/{key}/{navigationProperty}({relatedKey})/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/SanPham/{key}/{navigationProperty}({relatedKey})/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham/{key}/{navigationProperty}({relatedKey})/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/SanPham/{key}/{navigationProperty}/{relatedKey}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham/{key}/{navigationProperty}/{relatedKey}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/SanPham/{key}/{navigationProperty}/{relatedKey}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham/{key}/{navigationProperty}/{relatedKey}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "GetRef",
+    "RelativePath": "api/odata/SanPham/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/SanPham/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/SanPham/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/SanPham/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "GetRef",
+    "RelativePath": "api/odata/SanPham/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/SanPham/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/SanPham/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/SanPham/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/SanPham/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/SanPham/$count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Linq.IQueryable\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/SanPham/$count"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/SanPham/$count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Linq.IQueryable\u00601[[DoAn.Module.BusinessObjects.SanPham, DoAn.Module, Version=1.0.9117.34270, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/SanPham/$count"
+  },
+  {
     "ContainingType": "DoAn.WebApi.Reports.ReportController",
     "Method": "DownloadByKey",
     "RelativePath": "api/Report/DownloadByKey({key})",

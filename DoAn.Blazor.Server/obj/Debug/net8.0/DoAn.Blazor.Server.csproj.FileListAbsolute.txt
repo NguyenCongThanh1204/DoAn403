@@ -1288,3 +1288,4 @@ E:\GithupVd6\DoAn403\DoAn.Blazor.Server\obj\Debug\net8.0\refint\DoAn.Blazor.Serv
 E:\GithupVd6\DoAn403\DoAn.Blazor.Server\obj\Debug\net8.0\DoAn.Blazor.Server.pdb
 E:\GithupVd6\DoAn403\DoAn.Blazor.Server\obj\Debug\net8.0\DoAn.Blazor.Server.genruntimeconfig.cache
 E:\GithupVd6\DoAn403\DoAn.Blazor.Server\obj\Debug\net8.0\ref\DoAn.Blazor.Server.dll
+D:\Git\doAN\DoAn403\DoAn.Blazor.Server\obj\Debug\net8.0\DoAn.Blazor.Server.MvcApplicationPartsAssemblyInfo.cs
