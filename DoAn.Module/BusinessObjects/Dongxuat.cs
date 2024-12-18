@@ -46,12 +46,28 @@ namespace DoAn.Module.BusinessObjects
         }
 
         private SanPham _Hang;
-        [XafDisplayName(" Hàng hóa")]
-        [Association]
+        [XafDisplayName("Hàng hóa")]
+        [Association("hang-xuat")]
         public SanPham Hang
         {
             get { return _Hang; }
-            set { SetPropertyValue<SanPham>(nameof(Hang), ref _Hang, value); }
+            set
+            {
+                bool isModified = SetPropertyValue<SanPham>(nameof(Hang), ref _Hang, value);
+                if (isModified)
+                {
+                    // Automatically set the sale price when the product is selected
+                    if (Hang != null)
+                    {
+                        Dongia = Hang.Giaban;
+                    }
+                    // Trigger calculation after setting the unit price
+                    if (!IsLoading && !IsDeleted && !IsSaving)
+                    {
+                        Tinhdong();
+                    }
+                }
+            }
         }
 
         private double _Soluong;
@@ -66,6 +82,8 @@ namespace DoAn.Module.BusinessObjects
 
             }
         }
+
+
 
         private decimal _Dongia;
         [XafDisplayName(" Đơn giá")]
@@ -110,19 +128,21 @@ namespace DoAn.Module.BusinessObjects
         private void Tinhdong()
         {
             decimal tien = 0;
-            tien = (decimal)Soluong * Dongia;
+            tien = (decimal)Soluong *Dongia;
             decimal tienck = (decimal)(Chietkhau / 100) * tien;
             tien -= tienck;
             Thanhtien = tien;
             if (Phieu != null)
                 if(Hang != null)
                 {
-                    string sqlngay = Phieu.ToString("yyyy-MM-dd HH:mm:ss");
+                    string sqlngay = Phieu.NgayCT.ToString("yyyy-MM-dd HH:mm:ss");
                     double dg = (double)Session.ExecuteScalar("SELECT dbo.Tinhgiavon('"+Hang.Oid+"','"+sqlngay+"')AS von");
                     DongiaVon = (decimal)dg;
                 }
                 Phieu.Tinhtong();
 
         }
+
     }
+
 }

@@ -82,7 +82,7 @@ namespace DoAn.Module.BusinessObjects
         }
 
         private String _SoHD;
-        [XafDisplayName("Số CT"), Size(20)]
+        [XafDisplayName("Số HĐ"), Size(20)]
         public String SoHD
         {
             get { return _SoHD; }
@@ -173,7 +173,7 @@ namespace DoAn.Module.BusinessObjects
             return so;
         }
 
-        internal string ToString(string v)
+        public string ToString(string v)
         {
             throw new NotImplementedException();
         }

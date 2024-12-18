@@ -110,18 +110,22 @@ namespace DoAn.Module.BusinessObjects
             set { SetPropertyValue<string>(nameof(Ghichu), ref _Ghichu, value); }
         }
 
-        [DevExpress.Xpo.Aggregated, Association]
+
+
+        [DevExpress.Xpo.Aggregated, Association("hang-nhap")]
         [XafDisplayName("Nhập")]
         public XPCollection<DongNhap> DongNhaps
         {
             get { return GetCollection<DongNhap>(nameof(DongNhaps)); }
         }
 
-        [DevExpress.Xpo.Aggregated, Association]
+        [DevExpress.Xpo.Aggregated, Association("hang-xuat")]
         [XafDisplayName("Xuất")]
         public XPCollection<Dongxuat> Dongxuats
         {
             get { return GetCollection<Dongxuat>(nameof(Dongxuats)); }
         }
+
+
     } 
 }

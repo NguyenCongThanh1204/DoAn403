@@ -47,7 +47,7 @@ namespace DoAn.Module.BusinessObjects
 
         private SanPham _Hang;
         [XafDisplayName(" Hàng hóa")]
-        [Association]
+        [Association("hang-nhap")]
         public SanPham Hang
         {
             get { return _Hang; }
@@ -66,19 +66,20 @@ namespace DoAn.Module.BusinessObjects
 
             }
         }
-
         private decimal _Dongia;
         [XafDisplayName(" Đơn giá")]
         [ModelDefault("DisplayFormat", "{0:### ### ### ###}")]
+
+
         public decimal Dongia
         {
             get { return _Dongia; }
-            set {
+            set
+            {
                 bool isModified = SetPropertyValue<decimal>(nameof(Dongia), ref _Dongia, value);
                 if (!IsLoading && !IsDeleted && !IsSaving) { Tinhdong(); }
             }
         }
-
 
         private double _Chietkhau;
         [XafDisplayName(" Chiết khấu(%)")]

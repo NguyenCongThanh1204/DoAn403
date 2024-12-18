@@ -1,24 +1,20 @@
 {
   "Files": [
     {
-      "Id": "D:\\Git\\doAN\\DoAn403\\DoAn.Blazor.Server\\wwwroot\\css\\site.css",
+      "Id": "D:\\CS403W\\DoAn403\\DoAn.Blazor.Server\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Git\\doAN\\DoAn403\\DoAn.Blazor.Server\\wwwroot\\favicon.ico",
+      "Id": "D:\\CS403W\\DoAn403\\DoAn.Blazor.Server\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Git\\doAN\\DoAn403\\DoAn.Blazor.Server\\wwwroot\\images\\Logo.svg",
+      "Id": "D:\\CS403W\\DoAn403\\DoAn.Blazor.Server\\wwwroot\\images\\Logo.svg",
       "PackagePath": "staticwebassets\\images\\Logo.svg"
     },
     {
-      "Id": "D:\\Git\\doAN\\DoAn403\\DoAn.Blazor.Server\\wwwroot\\images\\SplashScreen.svg",
+      "Id": "D:\\CS403W\\DoAn403\\DoAn.Blazor.Server\\wwwroot\\images\\SplashScreen.svg",
       "PackagePath": "staticwebassets\\images\\SplashScreen.svg"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DoAn.Blazor.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DoAn.Blazor.Server.Microsoft.AspNetCore.StaticWebAssets.props",
